@@ -31,11 +31,16 @@ Stores using ShopperTrail obtain on-demand direct *private* feedback from custom
 
 ## Instructions
 
-Perform the actions in the below test scenarios and record your results. One Scenario ID = one row in the <a href="https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing" target="_blank" rel="noopener">Google Sheets document</a> which you can fill out as you go. Scenario IDs 1 - 8 correspond to the list below below. 
+Perform the actions in the below test scenarios and record your results. One Scenario ID = one row in the <a href="https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing" target="_blank" rel="noopener">Google Sheets "UAT-Data" document</a> which you can fill out as you go. Scenario IDs 1 - 8 correspond to the list below below. 
 
 ### Screenshots
 
-Screenshots are appreciated so that we can understand what you are or are not seeing. Screenshots can be uploaded to <a href="https://drive.google.com/drive/folders/1IzFfxT1jxnsi00PgxqbIxyPiDnhVURZw?usp=sharing" target="_blank" rel="noopener">this Drive folder.</a> 
+Screenshots are appreciated so that we can understand what you are or are not seeing. 
+  - Screenshots can be uploaded to <a href="https://drive.google.com/drive/folders/1IzFfxT1jxnsi00PgxqbIxyPiDnhVURZw?usp=sharing" target="_blank" rel="noopener">this Drive folder.</a> 
+  - Once uploaded hover over the screenshot and click the share icon.
+  - Make sure "Anyone with the link" is selected under "General Access" 
+  - Click "Copy link" 
+  - Paste the screenshot link into the appropriate Scenario ID row in the "UAT-Data" Google Sheet
 
 ---
 
