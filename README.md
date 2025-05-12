@@ -1,6 +1,16 @@
 # ShopperTrail UAT Test Cases
 
-Below is a prioritized instructions list of end‑to‑end test scenarios for staging/UAT.  Each tester should spend ~30–45 minutes working through core flows (Steps 1–4), then—time permitting—move on to guest accounts and QR‑code manipulation (Steps 5–8).
+Thanks for helping us test ShopperTrail!
+
+Below is a prioritized instructions list of end‑to‑end test scenarios for UAT which runs in a staging environment (non-permanent data).  Each tester should spend ~30–45 minutes working through core flows (Steps 1–4), then—time permitting—move on to guest accounts and QR‑code manipulation (Steps 5–8).
+
+---
+
+## ShopperTrail Quick Overview
+
+ShopperTrail is a data platform for local brick-and-mortar retail businesses. Store customers provide feedback as to why they walked out without buying an item (i.e. wrong size/brand), OR if an item was purchased, feedback as to how satisfied they were. There is no purchase necessary. In exchange for this feedback (or "Trail Drops"), users are granted points that can be spent in any ShopperTrail partner store on discounts/rewards.  
+
+Stores using ShopperTrail obtain on-demand direct *private* feedback from customers. Providing critical insights from shoppers in-store which can be used for merchandising decisions. 
 
 ---
 
@@ -12,8 +22,14 @@ Below is a prioritized instructions list of end‑to‑end test scenarios for st
   - Username: `customer_user2`  
   - Password: `HelloWorldForever!1`  
 - Optional: Google or Twitter account for social‑login. 
-    - **NOTE** Staging data is deleted *frequently* your social sign-in credentials will NEVER be shared. 
+    - **NOTE** Staging data is deleted *frequently* your email / social sign-in credentials will **NEVER** be shared. 
 - Access to your email on your mobile or desktop (confirm registration / guest‑QR emails).
+
+---
+
+## Instructions
+
+Perform the actions in the below test scenarios and record your results, one Scenario ID = one row in the [Google Sheets document](https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing) you can fill it out as you go. Scenario IDs 1 - 8 correspond to the list below below. 
 
 ---
 
