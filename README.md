@@ -39,10 +39,14 @@ Perform the actions in the below test scenarios and record your results. One Sce
 
 1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com`  
 2. **Verify:**  
-   - Branding (logo, fonts, colors) matches the provided screenshots.
+   - Branding (logo, fonts, colors) matches the provided screenshots.  
 
-   ![Homepage – top](./Homepage_1.jpg)
+   - Homepage TOP. This is the main page (the logo fades in and out of a background image).  
 
+   ![Homepage – top](./Homepage_1.jpg)  
+   
+   - Homepage scrolled down. This is the main page as the user scrolls down.  
+     
    ![Homepage – scroll down](./Homepage_2.jpg)
 
    - Main video loads and plays on click.  
