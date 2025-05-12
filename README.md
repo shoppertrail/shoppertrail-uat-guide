@@ -41,12 +41,12 @@ Perform the actions in the below test scenarios and record your results. One Sce
 2. **Verify:**  
    - Branding (logo, fonts, colors) matches the provided screenshots.  
 
-   - Homepage TOP. This is the main page (the logo fades in and out of a background image).  
+   - Homepage TOP. This is the main page (the logo fades in and out in front of a background image).  
 
    ![Homepage – top](./Homepage_1.jpg)  
    
    - Homepage scrolled down. This is the main page as the user scrolls down.  
-     
+
    ![Homepage – scroll down](./Homepage_2.jpg)
 
    - Main video loads and plays on click.  
@@ -55,12 +55,16 @@ Perform the actions in the below test scenarios and record your results. One Sce
 
 ---
 
-## ID 2. About Page Content & Media
+## ID 2. About ShopperTrail Page Content & Media
 
 1. **Scenario ID 2:** Click **About** in the main menu.  
 2. **Verify:**  
-   - Two sections (“For Stores” and “For Customers”) display appropriate heading and text.  
-   - At least one video thumbnail (with camcorder emoji) plays on click.  
+   - Modal (pop up box) shows informing the user that all information is in one place.
+   - Now navigate *back* to the homepage and again to the *About ShopperTrail* page the modal should not* appear.
+   - Two sections are available “For Customers” and “For Store Partners”  
+     - Clicking one section should change the table of contents
+   - Scroll through a few sections of the table of contents to make sure there are no glitches, no need to read everything.
+   - Click a section with a video thumbnail (camcorder emoji). Ensure video plays on click.  
 3. **Expected:** Content is present and legible; video playback initiates on tap/click.
 
 ---
