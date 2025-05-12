@@ -1,0 +1,1 @@
+# shoppertrail-uat-guide
