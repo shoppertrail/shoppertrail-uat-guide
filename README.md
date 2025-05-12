@@ -41,7 +41,7 @@ Perform the actions in the below test scenarios and record your results. One Sce
 2. **Verify:**  
    - Branding (logo, fonts, colors) matches the provided screenshots.  
 
-   - Homepage TOP. This is the main page (the logo fades in and out in front of a background image).  
+   - Homepage TOP. This is the main page (the logo fades in and out infront of a background image).  
 
    ![Homepage – top](./Homepage_1.jpg)  
    
@@ -50,8 +50,12 @@ Perform the actions in the below test scenarios and record your results. One Sce
    ![Homepage – scroll down](./Homepage_2.jpg)
 
    - Main video loads and plays on click.  
-   - All primary navigation links (Home, About, Account, etc.) are clickable and lead to the correct pages.  
-3. **Expected:** Page renders cleanly in < 2 s, video playback starts without error, links navigate correctly.
+   - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages.  
+   - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner. 
+   - Click to show quick scanner and grant browser camera permissions. Ensure ShopperTrail scanner pops up. Hide scanner and exit.
+   - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in, clicking the logo will return to the user's dashboard.
+3. **Expected:** Page renders cleanly in < 2 s, video playback starts without error, links navigate correctly. ShopperTrail scanner appears.
+  - *Note* ShopperTrail scanner will only scan ShopperTrail QR Codes, this is so people can't create fakes.
 
 ---
 
@@ -60,7 +64,7 @@ Perform the actions in the below test scenarios and record your results. One Sce
 1. **Scenario ID 2:** Click **About** in the main menu.  
 2. **Verify:**  
    - Modal (pop up box) shows informing the user that all information is in one place.
-   - Now navigate *back* to the homepage and again to the *About ShopperTrail* page the modal should not* appear.
+   - Now navigate *back* to the homepage and again to the *About* page the modal should not* appear.
    - Two sections are available “For Customers” and “For Store Partners”  
      - Clicking one section should change the table of contents
    - Scroll through a few sections of the table of contents to make sure there are no glitches, no need to read everything.
