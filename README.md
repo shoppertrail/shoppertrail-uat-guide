@@ -39,7 +39,12 @@ Perform the actions in the below test scenarios and record your results. One Sce
 
 1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com`  
 2. **Verify:**  
-   - Branding (logo, fonts, colors) matches the provided design spec.  
+   - Branding (logo, fonts, colors) matches the provided screenshots.
+
+   ![Homepage – top](./Homepage_1.jpg)
+
+   ![Homepage – scroll down](./Homepage_2.jpg)
+
    - Main video loads and plays on click.  
    - All primary navigation links (Home, About, Account, etc.) are clickable and lead to the correct pages.  
 3. **Expected:** Page renders cleanly in < 2 s, video playback starts without error, links navigate correctly.
