@@ -52,7 +52,7 @@ Perform the actions in the below test scenarios and record your results. One Sce
    - Main video loads and plays on click.  
    - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages.  
    - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner. 
-   - Click to show quick scanner and grant browser camera permissions. Ensure ShopperTrail scanner pops up. Hide scanner and exit.
+     - Click to show quick scanner and grant browser camera permissions. Ensure ShopperTrail scanner pops up. Hide scanner and exit.
    - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in, clicking the logo will return to the user's dashboard.
 3. **Expected:** Page renders cleanly in < 2 s, video playback starts without error, links navigate correctly. ShopperTrail scanner appears.
   - *Note* ShopperTrail scanner will only scan ShopperTrail QR Codes, this is so people can't create fakes.
@@ -65,21 +65,30 @@ Perform the actions in the below test scenarios and record your results. One Sce
 2. **Verify:**  
    - Modal (pop up box) shows informing the user that all information is in one place.
    - Now navigate *back* to the homepage and again to the *About* page the modal should not* appear.
-   - Two sections are available “For Customers” and “For Store Partners”  
-     - Clicking one section should change the table of contents
-   - Scroll through a few sections of the table of contents to make sure there are no glitches, no need to read everything.
-   - Click a section with a video thumbnail (camcorder emoji). Ensure video plays on click.  
+   - Two main sections are available “For Customers” and “For Store Partners”  
+     - Clicking one main section should change the table of contents to reflect the proper main section
+   - Click and scroll through a few sub-sections of the table of contents to make sure there are no glitches, no need to read everything.
+   - Click a sub-section with a video thumbnail (camcorder emoji). Ensure video plays on click.  
 3. **Expected:** Content is present and legible; video playback initiates on tap/click.
 
 ---
 
 ## ID 3. Login/Logout (Seeded Account)
 
-1. **Scenario ID 3:** Navigate to **Account > Login**, enter seeded credentials.  
-2. **Verify:**  
+1. **Scenario ID 3:** Navigate to **Login / Register**, enter pre-seeded credentials.  
+   - Username: `customer_user2`  
+   - Password: `HelloWorldForever!1`  
+2. Click Account > Edit Profile and change values of "How often do you shop in stores?" or "Zip" to a new selection or value.
+   - *Please DO NOT* change username or email.
+   - *Please DO NOT* delete account or change password.
+3. Click "My Stores and Points" towards the bottom, click "ABC Store" 
+4. **Verify:**  
    - Successful login redirects to the dashboard.  
-   - **Account > Logout** correctly ends the session and returns you to the homepage.  
-3. **Expected:** Login/logout flows work without error.
+   - There should be at least 10 points in this account (depending on what other testers have completed this might be more or less)
+   - Account changes took place (step 2), verify this by clicking "Edit Profile" again
+   - Verify the details for "ABC Store" come up when clicked (step 3)
+   - **Account > Logout** correctly ends the session and shows a logout page. Click back to the homepage by clicking the T-Shirt logo.  
+5. **Expected:** Login/logout and basic dashboard and store info render properly. Account > Edit Profile flow works.
 
 ---
 
