@@ -8,9 +8,11 @@ Below is a prioritized instructions list of end‑to‑end test scenarios for UA
 
 ## ShopperTrail Quick Overview
 
-ShopperTrail is a data platform for local brick-and-mortar retail businesses. Store customers provide feedback as to why they walked out without buying an item (i.e. wrong size/brand), OR if an item was purchased, feedback as to how satisfied they were. There is no purchase necessary. In exchange for this feedback (or "Trail Drops"), users are granted points that can be spent in any ShopperTrail partner store on discounts/rewards.  
+ShopperTrail is a data platform for local brick-and-mortar retail businesses. Store customers provide feedback as to why they walked out without buying an item (i.e. wrong size/brand), OR if an item was purchased, feedback as to how satisfied they were.  
 
-Stores using ShopperTrail obtain on-demand direct *private* feedback from customers. Providing critical insights from shoppers in-store which can be used for merchandising decisions. 
+There is no purchase necessary. In exchange for this feedback (or "Trail Drops"), users are granted points that can be spent in any ShopperTrail partner store on discounts/rewards.  
+
+Stores using ShopperTrail obtain on-demand direct *private* feedback from customers. Providing critical insights from shoppers in-store which can be used for merchandising and inventory management decisions. 
 
 ---
 
@@ -29,11 +31,11 @@ Stores using ShopperTrail obtain on-demand direct *private* feedback from custom
 
 ## Instructions
 
-Perform the actions in the below test scenarios and record your results, one Scenario ID = one row in the [Google Sheets document](https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing) you can fill it out as you go. Scenario IDs 1 - 8 correspond to the list below below. 
+Perform the actions in the below test scenarios and record your results. One Scenario ID = one row in the <a href="https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing" target="_blank" rel="noopener">Google Sheets document</a> which you can fill out as you go. Scenario IDs 1 - 8 correspond to the list below below. 
 
 ---
 
-## 1. Homepage Load & Visual Check
+## ID 1. Homepage Load & Visual Check
 
 1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com`  
 2. **Verify:**  
@@ -44,9 +46,9 @@ Perform the actions in the below test scenarios and record your results, one Sce
 
 ---
 
-## 2. About Page Content & Media
+## ID 2. About Page Content & Media
 
-1. **Step:** Click **About** in the main menu.  
+1. **Scenario ID 2:** Click **About** in the main menu.  
 2. **Verify:**  
    - Two sections (“For Stores” and “For Customers”) display appropriate heading and text.  
    - At least one video thumbnail (with camcorder emoji) plays on click.  
@@ -54,9 +56,9 @@ Perform the actions in the below test scenarios and record your results, one Sce
 
 ---
 
-## 3. Login/Logout (Seeded Account)
+## ID 3. Login/Logout (Seeded Account)
 
-1. **Step:** Navigate to **Account > Login**, enter seeded credentials.  
+1. **Scenario ID 3:** Navigate to **Account > Login**, enter seeded credentials.  
 2. **Verify:**  
    - Successful login redirects to the dashboard.  
    - **Account > Logout** correctly ends the session and returns you to the homepage.  
@@ -64,9 +66,9 @@ Perform the actions in the below test scenarios and record your results, one Sce
 
 ---
 
-## 4. Social Single Sign‑On (Google / Twitter)
+## ID 4. Social Single Sign‑On (Google / Twitter)
 
-1. **Step:** On the **Login** page, choose **Sign in with Google** or **Sign in with Twitter**.  
+1. **Scenario ID 4:** On the **Login** page, choose **Sign in with Google** or **Sign in with Twitter**.  
 2. **Verify:**  
    - OAuth popup works and allows you to complete authentication.  
    - A new ShopperTrail account is created (check in **Account > Profile**).  
@@ -75,9 +77,9 @@ Perform the actions in the below test scenarios and record your results, one Sce
 
 ---
 
-## 5. Trail Drop as Guest
+## ID 5. Trail Drop as Guest
 
-1. **Step:**  
+1. **Scenario ID 5:**  
    - On your mobile device, open the camera (or our QR‑scanner app) and scan the **Store QR Code**.  
    - When the “Trail Drop” form appears, choose “Did Not Purchase” and select a reason.  
    - Submit the form.  
@@ -89,9 +91,9 @@ Perform the actions in the below test scenarios and record your results, one Sce
 
 ---
 
-## 6. Trail Drop as Registered User
+## ID 6. Trail Drop as Registered User
 
-1. **Step:** Log in with your ShopperTrail user.  
+1. **Scenario ID 6:** Log in with your ShopperTrail user.  
 2. **Step:** Scan the **Store QR Code** and submit a Trail Drop (purchase or no‑purchase).  
 3. **Verify:**  
    - Submission is recorded to your account (check **Dashboard > My Activity**).  
@@ -99,9 +101,9 @@ Perform the actions in the below test scenarios and record your results, one Sce
 
 ---
 
-## 7. New‑User Registration & Trail Drop
+## ID 7. New‑User Registration & Trail Drop
 
-1. **Step:** From the homepage, click **Sign Up**, fill out username/password/email, then log in.  
+1. **Scenario ID 7:** From the homepage, click **Sign Up**, fill out username/password/email, then log in.  
 2. **Step:** Scan the **Store QR Code**, submit a Trail Drop.  
 3. **Verify:**  
    - Account creation email (if any) arrives.  
@@ -111,9 +113,9 @@ Perform the actions in the below test scenarios and record your results, one Sce
 
 ---
 
-## 8. Guest‑QR Redemption to Registered Account
+## ID 8. Guest‑QR Redemption to Registered Account
 
-1. **Step:** On your mobile, scan one of the **Guest QR Codes** generated in Step 5.  
+1. **Scenario ID 8:** On your mobile, scan one of the **Guest QR Codes** generated in Step 5.  
 2. **Verify:**  
    - You’re prompted to log in (if not already).  
    - Upon login, points from the guest code are credited to your account balance.  
