@@ -31,7 +31,14 @@ Stores using ShopperTrail obtain on-demand direct *private* feedback from custom
 
 ## Instructions
 
-Perform the actions in the below test scenarios and record your results. One Scenario ID = one row in the <a href="https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing" target="_blank" rel="noopener">Google Sheets "UAT-Data" document</a> which you can fill out as you go. Scenario IDs 1 - 8 correspond to the list below below. 
+Perform the actions in the below test scenarios and record your results. One Scenario ID = one row in the <a href="https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing" target="_blank" rel="noopener">Google Sheets "UAT-Data" document</a> which you can fill out as you go.  
+
+UAT-Data:  
+
+![UAT Data Example](./UAT-Data-Example.png) 
+
+
+Scenario IDs 1 - 8 correspond to the list below below. 
 
 ### Screenshots
 
