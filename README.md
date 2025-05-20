@@ -1,4 +1,4 @@
-# ShopperTrail UAT Test Cases
+# ShopperTrail UAT
 
 Thanks for helping us test ShopperTrail!
 
