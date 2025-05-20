@@ -19,7 +19,7 @@ Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questio
    1. [ID 1: Homepage Load & Visual Check](#id-1-homepage-load--visual-check)  
    2. [ID 2: About Page Content & Media](#id-2-about-shoppertrail-page-content--media)  
    3. [ID 3: Login & Logout (Seeded Account)](#id-3-login--logout-seeded-account)
-   4. [ID 4: Social Single Sign-On (Google & Twitter)](#id-4-social-single-sign-on-google--twitter)  
+   4. [ID 4: Social Single Sign-On (Google & Twitter)](#id-4-social-single-sign--on-google--twitter)  
    5. [ID 5: …](#id-5)  
    6. [ID 6: …](#id-6)  
    7. [ID 7: …](#id-7)  
