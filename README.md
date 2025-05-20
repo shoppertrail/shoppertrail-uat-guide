@@ -24,7 +24,7 @@ Stores using ShopperTrail obtain on-demand direct *private* feedback from custom
   - Username: `customer_user2`  
   - Password: `HelloWorldForever!1`  
 - Optional: Google or Twitter account for social‑login. 
-    - **NOTE** Staging data is deleted *frequently!* ==Your email / social sign-in credentials will **NEVER** be shared!==
+    - **NOTE** Staging data is deleted *frequently!* <mark>Your email / social sign-in credentials will **NEVER** be shared!</mark>
 - Access to your email on your mobile or desktop, to confirm registration / guest‑QR emails.
 
 ---
