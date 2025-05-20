@@ -145,7 +145,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - If you are already logged in with Google or Twitter or whatever social sign-on you clicked, you may not need to verify your social account
    - Reminder:
      - Your single sign-on email is *not* retained, it is in a `staging` environment where data gets deleted frequently.
-     - You are also free to delete your account manually at anytime via "Account" > "Delete Account"
+     - You are also <mark>free to delete your account manually at anytime</mark> via "Account" > "Delete Account"
 2. Since single sign-on is used, ShopperTrail asks 2 additional questions to register a user profile.
    - How frequently you shop in physical stores
    - Your zip code
