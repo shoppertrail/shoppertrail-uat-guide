@@ -4,6 +4,8 @@ Thanks for helping us test ShopperTrail!
 
 Below is a prioritized instructions list of end‑to‑end test scenarios for UAT which runs in a staging environment (non-permanent data).  Each tester should spend ~30–45 minutes working through core flows (Steps 1–4), then—time permitting—move on to guest accounts and QR‑code manipulation (Steps 5–8).
 
+Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questions regarding these instructions.
+
 ---
 
 ## ShopperTrail Quick Overview
@@ -13,6 +15,8 @@ ShopperTrail is a data platform for local brick-and-mortar retail businesses. St
 There is no purchase necessary. In exchange for this feedback ("Trail Drops" in the ShopperTrail world), users are granted points that can be spent in *any* ShopperTrail partner store on discounts/rewards.  
 
 Stores using ShopperTrail obtain on-demand direct *private* feedback from customers. ShopperTrail is a feedback platform providing critical insights from in-store shoppers which can be used for merchandising and inventory management decisions. 
+
+ShopperTrail (brief) informational landing page: <a href="https://shoppertrail.com" target="_blank" rel="noopener"><i>ShopperTrail</i></a>
 
 ---
 
@@ -39,11 +43,11 @@ UAT-Data Google Sheet:
 ![UAT Data Example](./UAT-Data-Example.png) 
 
 
-Scenario IDs 1 - 8 correspond to the list below below. 
+Scenario IDs 1 - 8 correspond to the **Scenario ID List** below. 
 
 ### Screenshots
 
-Screenshots are appreciated so that we can understand what you are or are not seeing. 
+Screenshots are appreciated so that we can understand what you are or are not seeing on your particular device/browser. 
   - Screenshots can be uploaded to <a href="https://drive.google.com/drive/folders/1IzFfxT1jxnsi00PgxqbIxyPiDnhVURZw?usp=sharing" target="_blank" rel="noopener">this Google Drive folder.</a> 
   - Once uploaded hover over the screenshot and click the share icon.
   - Make sure "Anyone with the link" is selected under "General Access." 
