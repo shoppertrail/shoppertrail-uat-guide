@@ -61,10 +61,9 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ### ID 1. Homepage Load & Visual Check
 
-1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com`  
+1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com` (note browser)
 2. **Verify:**  
-   - Branding (logo, fonts, colors) matches the provided screenshots.  
-
+   - Branding (logo, fonts, colors) matches the provided screenshots.
    - Homepage TOP - Main page - logo should fade in and out infront of a background image.  
 
    ![Homepage – top](./Homepage_1.jpg)  
