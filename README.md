@@ -99,8 +99,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner.
      - Click to show quick scanner and grant browser camera permissions. Ensure ShopperTrail scanner pops up. Hide scanner and exit for now.
 3. **Expected:** Page renders cleanly in less than 2 seconds, video playback starts without error, links navigate correctly. ShopperTrail scanner appears.
-  - *Note* ShopperTrail scanner will only scan ShopperTrail QR Codes, this is so people can't create fakes.
-  - Try to scan a random QR code on the internet if you'd like, this should not work. 
+   - *Note* ShopperTrail scanner will only scan ShopperTrail QR Codes, this is so people can't create fakes.
+   - Try to scan a random QR code on the internet if you'd like, this should not work. 
 
 ---
 
