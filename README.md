@@ -40,7 +40,7 @@ Perform the actions in the below test scenarios and record your results. One **S
 
 UAT-Data Google Sheet:  
 
-![UAT Data Example](./UAT-Data-Example.png) 
+![UAT Data Example](./UAT-Data-Ex.png) 
 
 
 Scenario IDs 1 - 8 correspond to the **Scenario ID List** below. 
