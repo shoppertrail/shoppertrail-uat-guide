@@ -17,7 +17,7 @@ Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questio
    1. [ID 1: Homepage Load & Visual Check](#id-1-homepage-load--visual-check)  
    2. [ID 2: About Page Content & Media](#id-2-about-shoppertrail-page-content--media)  
    3. [ID 3: Login & Logout (Seeded Account)](#id-3-login--logout-seeded-account)
-   4. [ID 4: …](#id-4)  
+   4. [ID 4: …](#id-4-social-single-sign-on-google--twitter)  
    5. [ID 5: …](#id-5)  
    6. [ID 6: …](#id-6)  
    7. [ID 7: …](#id-7)  
@@ -123,13 +123,13 @@ Screenshots are appreciated so that we can understand what you are or are not se
 1. **Scenario ID 3:** Navigate to **Login / Register**, enter pre-seeded credentials.  
    - Username: `customer_user2`  
    - Password: `HelloWorldForever!1`  
-2. Click Account > Edit Profile and change values of "How often do you shop in stores?" or "Zip" to a new selection or value.
+2. Using the top menu Click "Account" > "Edit Profile" and change values of `How often do you shop in stores?` or `Zip` to a new selection or value.
    - *Please DO NOT* change username or email.
    - *Please DO NOT* delete account or change password.
 3. Click "My Stores and Points" towards the bottom, click "ABC Store" 
 4. **Verify:**  
-   - Successful login redirects to the dashboard.  
-   - There should be at least 10 points in this account (depending on what other testers have completed this might be more or less)
+   - Successful login redirects to the user dashboard. Note, clicking the t-shirt logo brings you back to the dashboard now.
+   - There should be at least 10 points in this account
    - Account changes took place (step 2), verify this by clicking "Edit Profile" again
    - Verify the details for "ABC Store" come up when clicked (step 3)
    - **Account > Logout** correctly ends the session and shows a logout page. Click back to the homepage by clicking the T-Shirt logo.  
@@ -137,14 +137,30 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-### ID 4. Social Single Sign‑On (Google / Twitter)
+### ID 4. Social Single Sign‑On (Google & Twitter)
 
-1. **Scenario ID 4:** On the **Login** page, choose **Sign in with Google** or **Sign in with Twitter**.  
-2. **Verify:**  
-   - OAuth popup works and allows you to complete authentication.  
-   - A new ShopperTrail account is created (check in **Account > Profile**).  
-   - You can log out and log back in via the same social button.  
-3. **Expected:** Social login completes, account is created, and session persists.
+1. **Scenario ID 4:** Navigate to **Login / Register**, choose **Google Sign-in** or **X-Twitter Sign-in**.
+  - If you are already logged in with Google or Twitter or whatever social sign-on you clicked, you may not need to verify your social account
+  - Reminder:
+    - Your single sign-on email is *not* retained, it is in a `staging` environment where data gets deleted frequently.
+    - You are also free to delete your account manually at anytime via "Account" > "Delete Account"
+2. Since single sign-on is used, ShopperTrail asks 2 additional questions to register a user profile.
+  - How frequently you shop in physical stores
+  - Your zip code
+3. Click "Account" > "Edit Profile" change your `username` or `How often do you shop in stores?` or `Zip`
+4. Click "Account" > "Edit Profile" change your email *if* you have another email address you can use/verify.
+5. **Verify:**  
+   - OAuth popup works and allows you to complete authentication via Google or Twitter/X verification (if you're not already logged in).
+   - After answering (step 2) questions, verify that you are signed in to ShopperTrail by clicking on the *ShopperTrail app dashboard* link. You can also click the t-shirt logo.
+     - You should see a message that indicates your username and that it can be changed if you wish.
+     - You should see a pop-up that says something like "As a member, you increased your Trail Drop submission limit..." 
+       - Log out and log in a few times, verify that this pop-up no loger appears.
+   - Verify Upon first log-in there should be a pop-up message that explains increased rewards of an account.
+     - Log out and log back in again this pop-up should not appear again. 
+   - Verify (step 3) took place by clicking again "Account" > "Edit Profile"
+   - Verify (step 4) if you completed this. Log-in again with single sign-on and check "Account" > "Edit Profile" 
+6. **Expected:** Social login completes, account is created, and session persists. 
+  - Delete your account if you wish
 
 ---
 
