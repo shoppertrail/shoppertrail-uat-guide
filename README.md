@@ -4,7 +4,9 @@ Thanks for helping us test ShopperTrail!
 
 Below is a prioritized instructions list of end‑to‑end test scenarios for UAT which runs in a staging environment (non-permanent data).  Each tester should spend ~30–45 minutes working through core flows (Steps 1–4), then—time permitting—move on to guest accounts and QR‑code manipulation (Steps 5–8).
 
-Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questions regarding these instructions.
+Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questions regarding these instructions.  
+
+**Note:** While the steps below cover our core flows, please feel free to deviate and explore the app freely if you'd like. To assess if the app is intuitive to you.
 
 ---
 
@@ -86,14 +88,14 @@ Screenshots are appreciated so that we can understand what you are or are not se
    
    - Homepage scrolled down - Main page as user scrolls - Should have buttons
      1. Login / Register
-     2. Scan a SHopperTrail QR
+     2. Scan a ShopperTrail QR
      3. About
    - Should include a link for retailer sign-up info (for "Store" users)
    - Should include ShopperTrail Overview Video  
 
    ![Homepage – scroll down](./Homepage_2.jpg)
 
-   - Main video loads and plays on click (of cover gif or link). Loading timer emoji displayes with font.
+   - Main video loads and plays (click cover gif or link). Loading timer emoji displayes with font.
    - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in, return to user's dashboard.
    - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages.
    - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner.
@@ -112,8 +114,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - Now navigate *back* to the homepage and again to the *About* page. The modal should now not* appear.
    - Two main sections are available “For Customers” and “For Store Partners”
      - Clicking one main section should change the table of contents to reflect the proper main section
-   - Click and scroll through a few sub-sections of the table of contents to make sure there are no glitches, no need to read everything.
-   - Click a sub-section with a video thumbnail (camcorder emoji). Ensure video plays on click.
+   - Click and scroll through a few sub-sections of the table of contents to make sure there are no glitches. No need to read everything.
+   - Click a sub-section with a video thumbnail (camcorder emoji). Ensure video plays on click. No need to view all.
 3. **Expected:** Content is present and legible; video playback initiates on tap/click.
 
 ---
