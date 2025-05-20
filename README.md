@@ -19,19 +19,20 @@ Stores using ShopperTrail obtain on-demand direct *private* feedback from custom
 ## Prerequisites
 
 - A desktop/laptop and a mobile device in the same room.  
+  - So that you can reference / scan QR codes 
 - A printed or on‑screen **Store QR Code** for the test store (provided in this doc).  
 - Test user credentials (seeded in staging) i.e.:  
   - Username: `customer_user2`  
   - Password: `HelloWorldForever!1`  
 - Optional: Google or Twitter account for social‑login. 
-    - **NOTE** Staging data is deleted *frequently!* <mark>Your email / social sign-in credentials will **NEVER** be shared!</mark>
+    - **NOTE** Staging data is deleted *frequently!* <mark>Your email / social sign-in credentials will **NEVER** be shared.</mark>
 - Access to your email on your mobile or desktop, to confirm registration / guest‑QR emails.
 
 ---
 
 ## Instructions
 
-Perform the actions in the below test scenarios and record your results. One Scenario ID = one row in the <a href="https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing" target="_blank" rel="noopener">Google Sheets "UAT-Data" document</a> which you can fill out as you go.  
+Perform the actions in the below test scenarios and record your results. One **Scenario ID** = one row in the <a href="https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing" target="_blank" rel="noopener">Google Sheets "UAT-Data" document</a> which you can fill out as you go.  
 
 UAT-Data Google Sheet:  
 
@@ -51,7 +52,10 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-## ID 1. Homepage Load & Visual Check
+## Scenario ID List  
+
+
+### ID 1. Homepage Load & Visual Check
 
 1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com`  
 2. **Verify:**  
@@ -75,7 +79,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-## ID 2. About ShopperTrail Page Content & Media
+### ID 2. About ShopperTrail Page Content & Media
 
 1. **Scenario ID 2:** Click **About** in the main menu.  
 2. **Verify:**  
@@ -89,7 +93,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-## ID 3. Login/Logout (Seeded Account)
+### ID 3. Login/Logout (Seeded Account)
 
 1. **Scenario ID 3:** Navigate to **Login / Register**, enter pre-seeded credentials.  
    - Username: `customer_user2`  
@@ -108,7 +112,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-## ID 4. Social Single Sign‑On (Google / Twitter)
+### ID 4. Social Single Sign‑On (Google / Twitter)
 
 1. **Scenario ID 4:** On the **Login** page, choose **Sign in with Google** or **Sign in with Twitter**.  
 2. **Verify:**  
@@ -119,7 +123,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-## ID 5. Trail Drop as Guest
+### ID 5. Trail Drop as Guest
 
 1. **Scenario ID 5:**  
    - On your mobile device, open the camera (or our QR‑scanner app) and scan the **Store QR Code**.  
@@ -133,7 +137,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-## ID 6. Trail Drop as Registered User
+### ID 6. Trail Drop as Registered User
 
 1. **Scenario ID 6:** Log in with your ShopperTrail user.  
 2. **Step:** Scan the **Store QR Code** and submit a Trail Drop (purchase or no‑purchase).  
@@ -143,7 +147,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-## ID 7. New‑User Registration & Trail Drop
+### ID 7. New‑User Registration & Trail Drop
 
 1. **Scenario ID 7:** From the homepage, click **Sign Up**, fill out username/password/email, then log in.  
 2. **Step:** Scan the **Store QR Code**, submit a Trail Drop.  
@@ -155,7 +159,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-## ID 8. Guest‑QR Redemption to Registered Account
+### ID 8. Guest‑QR Redemption to Registered Account
 
 1. **Scenario ID 8:** On your mobile, scan one of the **Guest QR Codes** generated in Step 5.  
 2. **Verify:**  
@@ -166,7 +170,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-## Notes & Next Steps
+### Notes & Next Steps
 
 - **Priority 1:** Steps 1–4 (core site flow, login, content, social SSO).  
 - **Priority 2:** Steps 5–6 (guest & registered Trail Drops).  
