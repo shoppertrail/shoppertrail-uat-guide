@@ -10,9 +10,9 @@ Below is a prioritized instructions list of end‑to‑end test scenarios for UA
 
 ShopperTrail is a data platform for local brick-and-mortar retail businesses. Store customers provide feedback as to why they walked out without buying an item (i.e. wrong size/brand), OR if an item was purchased, feedback as to how satisfied they were.  
 
-There is no purchase necessary. In exchange for this feedback (or "Trail Drops"), users are granted points that can be spent in *any* ShopperTrail partner store on discounts/rewards.  
+There is no purchase necessary. In exchange for this feedback ("Trail Drops" in the ShopperTrail world), users are granted points that can be spent in *any* ShopperTrail partner store on discounts/rewards.  
 
-Stores using ShopperTrail obtain on-demand direct *private* feedback from customers. Providing critical insights from shoppers in-store which can be used for merchandising and inventory management decisions. 
+Stores using ShopperTrail obtain on-demand direct *private* feedback from customers. ShopperTrail is a feedback platform providing critical insights from in-store shoppers which can be used for merchandising and inventory management decisions. 
 
 ---
 
@@ -20,11 +20,11 @@ Stores using ShopperTrail obtain on-demand direct *private* feedback from custom
 
 - A desktop/laptop and a mobile device in the same room.  
 - A printed or on‑screen **Store QR Code** for the test store (provided in this doc).  
-- Test user credentials (seeded in staging):  
+- Test user credentials (seeded in staging) i.e.:  
   - Username: `customer_user2`  
   - Password: `HelloWorldForever!1`  
 - Optional: Google or Twitter account for social‑login. 
-    - **NOTE** Staging data is deleted *frequently!* Your email / social sign-in credentials will **NEVER** be shared. 
+    - **NOTE** Staging data is deleted *frequently!* ==Your email / social sign-in credentials will **NEVER** be shared!==
 - Access to your email on your mobile or desktop, to confirm registration / guest‑QR emails.
 
 ---
