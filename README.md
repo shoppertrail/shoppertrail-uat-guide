@@ -16,7 +16,7 @@ Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questio
 4. [Scenario ID List](#scenario-id-list)  
    1. [ID 1: Homepage Load & Visual Check](#id-1-homepage-load--visual-check)  
    2. [ID 2: About Page Content & Media](#id-2-about-shoppertrail-page-content--media)  
-   3. [ID 3: Login/Logout (Seeded Account)](#id-3-loginglogout-seeded-account)  
+   3. [ID 3: Login/Logout (Seeded Account)](#id-3-loging/logout-seeded-account)  
    4. [ID 4: …](#id-4)  
    5. [ID 5: …](#id-5)  
    6. [ID 6: …](#id-6)  
