@@ -65,21 +65,27 @@ Screenshots are appreciated so that we can understand what you are or are not se
 2. **Verify:**  
    - Branding (logo, fonts, colors) matches the provided screenshots.  
 
-   - Homepage TOP. This is the main page (the logo fades in and out infront of a background image).  
+   - Homepage TOP - Main page - logo should fade in and out infront of a background image.  
 
    ![Homepage – top](./Homepage_1.jpg)  
    
-   - Homepage scrolled down. This is the main page as the user scrolls down.  
+   - Homepage scrolled down - Main page as user scrolls - Should have buttons
+     1. Login / Register
+     2. Scan a SHopperTrail QR
+     3. About
+   - Should include a link for retailer sign-up info (for "Store" users)
+   - Should include ShopperTrail Overview Video  
 
    ![Homepage – scroll down](./Homepage_2.jpg)
 
-   - Main video loads and plays on click.  
-   - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages.  
-   - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner. 
-     - Click to show quick scanner and grant browser camera permissions. Ensure ShopperTrail scanner pops up. Hide scanner and exit.
-   - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in, clicking the logo will return to the user's dashboard.
+   - Main video loads and plays on click (of video gif or link). Loading timer emoji displayes with loading font.
+   - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages.
+   - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner.
+     - Click to show quick scanner and grant browser camera permissions. Ensure ShopperTrail scanner pops up. Hide scanner and exit for now.
+   - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in, they will return to user's dashboard.
 3. **Expected:** Page renders cleanly in < 2 s, video playback starts without error, links navigate correctly. ShopperTrail scanner appears.
   - *Note* ShopperTrail scanner will only scan ShopperTrail QR Codes, this is so people can't create fakes.
+  - Try to scan a random QR code on the internet if you'd like, this should not work. 
 
 ---
 
