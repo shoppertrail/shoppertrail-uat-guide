@@ -193,12 +193,22 @@ Screenshots are appreciated so that we can understand what you are or are not se
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
    </p>
-   - When the “Trail Drop” form appears, choose “Did Not Purchase” and select a reason.  
-   - Submit the form.  
+   Click “Trail Drop Form” to begin filling out the form.  
+   
+   ![Trail Drop Form](./Trail_Drop_Form.jpg)  
+   
+   Simply invent a scenario where you did not (or did) find what you were looking for, and why you did not make a purchase (or, if you did purchase, how satisfied were you). After the form is submitted, you should arrive at the Trail Perk screen (below) this tells you of your earned points. 
+   
+   ![Trail Perk Earned](./Trail_Perk_Earned.jpg)  
+   
+   Add an email address to which to send your earned points - Trail Perk QR code
 2. **Verify:**  
-   - A confirmation message appears (“Thank you!”).  
+   - A confirmation screen appears. You've just earned ShopperTrail points without having an account. The points are in the QR Code. 
+   - Check that the copy makes sense, you can copy / save the token, take a screenshot or email your QR code to yourself (or anywhere). 
+   - Detailed Guest Guide is available on this screen too as a refresher of the process. 
    - No account is required.  
-3. **Repeat:** Scan again, choose “Did Purchase,” rate satisfaction, enter item name. Submit.  
+   - Check email, ShopperTrail Trail Perk should have arrived in your inbox (spam/updates/promotions)
+3. **Repeat:** Scan again, choose another scenario, if you did not make a purchase last time maybe you select that you did make a purchase this time. Rate satisfaction, etc. Submit.  
 4. **Expected:** Both submissions succeed, guest QR redemption code is displayed or emailed.
 
 </details>
