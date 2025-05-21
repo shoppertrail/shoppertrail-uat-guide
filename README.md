@@ -231,7 +231,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 3. **Verify:**  
    - Submission is recorded to your account (check **Dashboard**).
-   - You should get more points for a logged in submission i.e. if Guest points were 3.5, then as a logged-in user you should get 5 points. 
+   - You should get more points for a logged in submission i.e. if Guest points were 3.5, then as a logged-in user you should get 5 points.  
+   
    <strong>Screen should appear</strong> as below after form submission:  
 
    ![Logged In User TD Complete Screen](./Logged_In_User_Complete.jpg)  
