@@ -216,6 +216,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
 ---
 
 ### ID 6. Trail Drop as Registered User
+<details>
+<summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 6:** Log in with your ShopperTrail user.  
    - You may use your ShopperTrail account created via Social Sign-On (ID 4) i.e. Google or the seeded account, which is:
@@ -238,6 +240,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
    ![Logged In User TD Complete Screen](./Logged_In_User_Complete.jpg)  
   
 4. **Expected:** Form loads, submission and points are tied to your user profile.
+
+</details>
 
 ---
 
