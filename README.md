@@ -77,8 +77,9 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ## Scenario ID List  
 
+### ID 1. Homepage Load & Visual Check
 <details>
-<summary><strong>ID 1. Homepage Load & Visual Check</strong></summary>
+<summary><strong>Click to expand steps</strong></summary>
 
 1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com` (note browser)  
 2. **Verify:**
