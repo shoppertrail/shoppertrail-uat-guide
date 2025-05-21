@@ -77,7 +77,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ## Scenario ID List  
 
-### ID 1. Homepage Load & Visual Check
+<details>
+<summary><strong>ID 1. Homepage Load & Visual Check</strong></summary>
 
 1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com` (note browser)  
 2. **Verify:**
@@ -104,6 +105,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - *Note* ShopperTrail scanner will only scan ShopperTrail QR Codes, this is so people can't create fakes.
    - Try to scan a random QR code on the internet if you'd like, this should not work. 
 
+</details>
 ---
 
 ### ID 2. About ShopperTrail Page Content & Media
