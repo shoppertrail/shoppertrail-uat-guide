@@ -21,7 +21,7 @@ Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questio
    3. [ID 3: Login & Logout (Seeded Account)](#id-3-login--logout-seeded-account)
    4. [ID 4: Social Single Sign-On (Google & Twitter)](#id-4-social-single-signon-google--twitter)
    5. [ID 5: Trail Drop as Guest](#id-5-trail-drop-as-guest)  
-   6. [ID 6: …](#id-6)  
+   6. [ID 6: Trail Drop as Registered User](#id-6-trail-drop-as-registered-user)  
    7. [ID 7: …](#id-7)  
    8. [ID 8: …](#id-8)  
 
