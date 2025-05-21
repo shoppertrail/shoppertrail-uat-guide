@@ -107,6 +107,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - Try to scan a random QR code on the internet if you'd like, this should not work. 
 
 </details>
+
 ---
 
 ### ID 2. About ShopperTrail Page Content & Media
@@ -124,6 +125,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 3. **Expected:** Content is present and legible; video playback initiates on tap/click.
 
 </details>
+
 ---
 
 ### ID 3. Login & Logout (Seeded Account)
@@ -146,6 +148,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 5. **Expected:** Login/logout and basic dashboard and store info render properly. Account > Edit Profile flow works.
 
 </details>
+
 ---
 
 ### ID 4. Social Single Sign‑On (Google & Twitter)
@@ -176,6 +179,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - Delete your account if you wish. You can re-test if you'd like. 
 
 </details>
+
 ---
 
 ### ID 5. Trail Drop as Guest
@@ -196,6 +200,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 4. **Expected:** Both submissions succeed, guest QR redemption code is displayed or emailed.
 
 </details>
+
 ---
 
 ### ID 6. Trail Drop as Registered User
