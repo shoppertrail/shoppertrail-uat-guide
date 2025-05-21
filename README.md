@@ -221,11 +221,11 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - You may use your ShopperTrail account created via Social Sign-On (ID 4) i.e. Google or the seeded account, which is:
       - Username: `customer_user2`  
       - Password: `HelloWorldForever!1` 
-2. **Step:** Scan the **Store QR Code** (provided again below) and submit a Trail Drop (purchase or no‑purchase).  
+2. **Step:** Click QR Code Scanners, scan the **Store QR Code** (provided again below) and submit a Trail Drop (purchase or no‑purchase).  
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
    </p>
-   <strong>Screen Should Appear As Below</strong>  
+   <strong>Screen should appear</strong> as below after scan: 
 
    ![Logged In User Scan Screen](./Logged_In_User_Scan.jpg)  
 
