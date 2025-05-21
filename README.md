@@ -79,7 +79,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ### ID 1. Homepage Load & Visual Check
 <details>
-<summary><strong>Click to expand steps</strong></summary>
+<summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com` (note browser)  
 2. **Verify:**
@@ -110,6 +110,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
 ---
 
 ### ID 2. About ShopperTrail Page Content & Media
+<details>
+<summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 2:** Click **About** in the main menu.  
 2. **Verify:**  
@@ -121,9 +123,12 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - Click a sub-section with a video thumbnail (camcorder emoji). Ensure video plays on click. No need to view all.
 3. **Expected:** Content is present and legible; video playback initiates on tap/click.
 
+</details>
 ---
 
 ### ID 3. Login & Logout (Seeded Account)
+<details>
+<summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 3:** Navigate to **Login / Register**, enter pre-seeded credentials.  
    - Username: `customer_user2`  
@@ -140,9 +145,12 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - **Account > Logout** correctly ends the session and shows a logout page. Click back to the homepage by clicking the T-Shirt logo.  
 5. **Expected:** Login/logout and basic dashboard and store info render properly. Account > Edit Profile flow works.
 
+</details>
 ---
 
 ### ID 4. Social Single Sign‑On (Google & Twitter)
+<details>
+<summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 4:** Navigate to **Login / Register**, choose **Google Sign-in** or **X-Twitter Sign-in**.
    - If you are already logged in with Google or Twitter, you may not need to verify your social account
@@ -167,9 +175,12 @@ Screenshots are appreciated so that we can understand what you are or are not se
 6. **Expected:** Social login completes, account is created, and session persists. 
    - Delete your account if you wish. You can re-test if you'd like. 
 
+</details>
 ---
 
 ### ID 5. Trail Drop as Guest
+<details>
+<summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 5:**  This scenario tests the core ShopperTrail feedback feature for *Guests.* Leaving feedback (called a "Trail Drop") for a store, typically constitutes why a shopper left without buying an item (wrong style/brand). Although feedback can also be that they were happy to find/purchase an item in-stock. Providing feedback as a guest does not require a ShopperTrail account. 
    - On your mobile device, open the camera (or our QR‑scanner app) and scan the **Store QR Code** below. Note, in the real world this may be at the store's counter or posted inside the door. 
@@ -184,6 +195,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 3. **Repeat:** Scan again, choose “Did Purchase,” rate satisfaction, enter item name. Submit.  
 4. **Expected:** Both submissions succeed, guest QR redemption code is displayed or emailed.
 
+</details>
 ---
 
 ### ID 6. Trail Drop as Registered User
