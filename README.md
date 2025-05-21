@@ -66,7 +66,7 @@ Scenario IDs 1 - 8 correspond to the **Scenario ID List** below.
 
 ### Screenshots
 
-Screenshots are appreciated so that we can understand what you are or are not seeing on your particular device/browser. 
+Screenshots are appreciated so that we can understand what you are or are not seeing on your particular device/browser. Do colors/fonts seem off? Is the ShopperTrail copy not clear? Did you encounter an error?  
   - Screenshots can be uploaded to <a href="https://drive.google.com/drive/folders/1IzFfxT1jxnsi00PgxqbIxyPiDnhVURZw?usp=sharing" target="_blank" rel="noopener">this Google Drive folder.</a> 
   - Once uploaded hover over the screenshot and click the share icon.
   - Make sure "Anyone with the link" is selected under "General Access." 
@@ -168,8 +168,9 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ### ID 5. Trail Drop as Guest
 
-1. **Scenario ID 5:**  
-   - On your mobile device, open the camera (or our QR‑scanner app) and scan the **Store QR Code**.  
+1. **Scenario ID 5:**  This scenario tests the core ShopperTrail feedback feature for *Guests.* Leaving feedback (called a "Trail Drop") for a store, typically constitutes why a shopper left without buying an item (wrong style/brand). Although feedback can also be that they were happy to find/purchase an item in-stock. Providing feedback as a guest does not require a ShopperTrail account. 
+   - On your mobile device, open the camera (or our QR‑scanner app) and scan the **Store QR Code** below. Note, in the real world this may be at the store's counter or posted inside the door. 
+   ![ABC QR Code](./d4202c13-b359-4193-b355-cf046beff83c.png)  
    - When the “Trail Drop” form appears, choose “Did Not Purchase” and select a reason.  
    - Submit the form.  
 2. **Verify:**  
