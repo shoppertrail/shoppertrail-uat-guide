@@ -193,7 +193,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
    </p>
-   Click “Trail Drop Form” to begin filling out the form.  
+   **Click “Trail Drop Form”** to begin filling out the form. Which should look like the below.
    
    ![Trail Drop Form](./Trail_Drop_Form.jpg)  
    
@@ -218,9 +218,24 @@ Screenshots are appreciated so that we can understand what you are or are not se
 ### ID 6. Trail Drop as Registered User
 
 1. **Scenario ID 6:** Log in with your ShopperTrail user.  
-2. **Step:** Scan the **Store QR Code** and submit a Trail Drop (purchase or no‑purchase).  
+   - You may use your ShopperTrail account created via Social Sign-On i.e. Google or the seeded account:
+      - Username: `customer_user2`  
+      - Password: `HelloWorldForever!1` 
+2. **Step:** Scan the **Store QR Code** (provided again below) and submit a Trail Drop (purchase or no‑purchase).  
+   <p align="center">
+      <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
+   </p>
+   **Screen Should Appear As Below**  
+
+   ![Logged In User Scan Screen](./Logged_In_User_Scan.jpg)  
+
 3. **Verify:**  
-   - Submission is recorded to your account (check **Dashboard > My Activity**).  
+   - Submission is recorded to your account (check **Dashboard**).
+   - You should get more points for a logged in submission i.e. if Guest points were 3.5 then when you log-in you should get 5 points. 
+   - After successful submission, screen should look like the below.  
+
+   ![Logged In User TD Complete Screen](./Logged_In_User_Complete.jpg)  
+  
 4. **Expected:** Form loads, submission is tied to your user profile.
 
 ---
