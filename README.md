@@ -6,7 +6,7 @@ Below is a prioritized instructions list of end‑to‑end test scenarios for UA
 
 Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questions regarding these instructions.  
 
-**Note:** While the steps below cover our core flows, please feel free to deviate and explore the app freely if you'd like. To assess if the app is intuitive to you.
+**Note:** While the steps below cover our core flows, please feel free to deviate and explore the app to assess its intuitiveness.
 
 ---
 
@@ -68,7 +68,7 @@ Perform the actions in the below test scenarios from the **Scenario ID List.** R
 
 ### UAT-Data Google Sheet Example
 
-Example of completing the UAT-Data Google Sheet. This just gives you an idea, there are a few more colums to complete. (GitHub only allows embedded gifs, not videos).
+Example of completing the UAT-Data Google Sheet. This just gives you an idea, there are a few more columns to complete. (GitHub only allows embedded gifs, not videos).
 
   <!-- Figure with GIF -->
   <figure style="margin:0; text-align:center;">
@@ -116,7 +116,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
    ![Homepage – scroll down](./Homepage_2.jpg)
 
-   - Main video loads and plays (click cover gif or link). Loading timer emoji displayes with font.
+   - Main video loads and plays (click cover gif or link). Loading timer emoji displays with font.
    - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in, return to user's dashboard.
    - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages.
    - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner.
@@ -136,7 +136,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 1. **Scenario ID 2:** Click **About** in the main menu.  
 2. **Verify:**  
    - Modal (pop up box) shows informing the user that all information is in one place.
-   - Now navigate *back* to the homepage and again to the *About* page. The modal should now not* appear.
+   - Now navigate *back* to the homepage and again to the *About* page. The modal should no longer appear.
    - Two main sections are available “For Customers” and “For Store Partners”
      - Clicking one main section should change the table of contents to reflect the proper main section
    - Click and scroll through a few sub-sections of the table of contents to make sure there are no glitches. No need to read everything.
@@ -189,7 +189,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
     - After answering (step 2) questions, verify that you are signed in to ShopperTrail by clicking on the *ShopperTrail app dashboard* link. You can also click the t-shirt logo.
       - You should see a message that indicates your username and that it can be changed if you wish.
       - You should see a pop-up that says something like "As a member, you increased your Trail Drop submission limit..." 
-        - Log out and log in a few times, verify that this pop-up no loger appears.
+        - Log out and log in a few times, verify that this pop-up no longer appears.
     - Verify Upon first log-in there should be a pop-up message that explains increased rewards of an account.
       - Log out and log back in again this pop-up should not appear again. 
     - Verify (step 3) took place by clicking again "Account" > "Edit Profile"
@@ -309,7 +309,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 - **Priority 3:** Steps 7–9 (new sign‑up, guest QR transfer, QR Trail Perk creation).  
 - After (or while) completing these Scenario IDs, ensure you have filled out the rows in the [UAT-Data Google Sheet Link](#uat-data-google-sheet-link) one row = one ID.
    - Capture any screenshots, error messages, or suggestions/comments; note the device/browser used.
-- If you discover missing data, ShopperTrail points or general math errors, please try to record the page URL and console/network errors.
+- If you discover missing data, ShopperTrail points or general math errors etc, please try to record the page URL and console/network errors.
 - Have more comments to write? Cool! We'd greatly appreciate additional feedback! Don't hold back 😊 You can create a blank doc and write free form in this folder:
 <a href="https://drive.google.com/drive/folders/1VChj_wanoMJUNUdKxlDzv4MZufReLPBY?usp=sharing" target="_blank" rel="noopener">Folder Link</a> 
 
