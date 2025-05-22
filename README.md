@@ -61,7 +61,7 @@ Screen recording of filling out the UAT-Data Google Sheet (GitHub only allows sh
 
 ![Quick demo of UAT flow](./UAT-Data-Screen-Rec.gif)
 
-Scenario IDs 1 - 8 correspond to the **Scenario ID List** below.  
+**Pick the Scenario ID** drop-down in UAT-Data Google Sheet you are testing. These Scenario IDs correspond to the **Scenario ID List** below.  
 
 ### Screenshots
 
