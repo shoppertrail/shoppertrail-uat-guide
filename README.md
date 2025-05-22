@@ -55,7 +55,7 @@ ShopperTrail (brief) informational landing page: <a href="https://shoppertrail.c
 
 ## Instructions
 
-Perform the actions in the below test scenarios from the Scenario ID List. and record your results. One **Scenario ID** should equal **One Row** in the Google Sheets "UAT-Data" document. Each row should contain values for each of the following columns:  
+Perform the actions in the below test scenarios from the **Scenario ID List.** Record your results in the Google Sheets "UAT-Data" document, one **Scenario ID** should equal **One Row**. Each row should at least contain values for the following columns:  
 
 - Tester Name	
 - Scenario ID	
@@ -67,9 +67,19 @@ Perform the actions in the below test scenarios from the Scenario ID List. and r
 
 <a href="https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing" target="_blank" rel="noopener">Google Sheets "UAT-Data" Document Link</a> 
 
-Screen recording example of completing the UAT-Data Google Sheet. This just gives you an idea, there are a few more colums to complete. 
+Screen recording example of completing the UAT-Data Google Sheet. This just gives you an idea, there are a few more colums to complete. (GitHub only allows embedded gifs, not videos).
 
-![Quick demo of UAT flow](./UAT-Data-Screen-Rec.gif)
+  <!-- Figure with GIF -->
+  <figure style="margin:0; text-align:center;">
+    <img 
+      src="./UAT-Data-Screen-Rec.gif" 
+      alt="Quick demo of UAT flow" 
+      style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:4px;"
+    >
+    <figcaption style="font-size:0.9em; color:#555; margin-top:0.5rem;">
+      Select the “Scenario ID” dropdown, choose your test case, and fill in the columns.
+    </figcaption>
+  </figure>
 
 **Pick the Scenario ID** drop-down in UAT-Data Google Sheet you are testing. These Scenario IDs correspond to the **Scenario ID List** below.  
 
