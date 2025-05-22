@@ -61,13 +61,10 @@ UAT-Data Google Sheet:
 
 ![UAT Data Example](./UAT-Data-Ex.png)  
 
-Short screen recording of filling out the UAT-Data sheet.  
+Screen recording of filling out the UAT-Data sheet (GitHub only allows short gifs).  
 
-[▶️ Watch the UAT screen recording](./UAT-Data-Screen-Rec.mp4)  
-<video src="./UAT-Data-Screen-Rec.mp4" controls style="max-width:100%;">
-  Your browser doesn’t support HTML5 video.  
-  <a href="./UAT-Data-Screen-Rec.mp4">Download the MP4 instead.</a>
-</video>
+![Quick demo of UAT flow](./UAT-Data-Screen-Rec.gif)
+
 Scenario IDs 1 - 8 correspond to the **Scenario ID List** below.  
 
 ### Screenshots
