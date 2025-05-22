@@ -65,9 +65,13 @@ Perform the actions in the below test scenarios from the **Scenario ID List.** R
 - Device Type 
 - Browser
 
+### UAT-Data Google Sheet Link
+
 <a href="https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing" target="_blank" rel="noopener">Google Sheets "UAT-Data" Document Link</a> 
 
-Screen recording example of completing the UAT-Data Google Sheet. This just gives you an idea, there are a few more colums to complete. (GitHub only allows embedded gifs, not videos).
+### UAT-Data Google Sheet Example
+
+Example of completing the UAT-Data Google Sheet. This just gives you an idea, there are a few more colums to complete. (GitHub only allows embedded gifs, not videos).
 
   <!-- Figure with GIF -->
   <figure style="margin:0; text-align:center;">
