@@ -246,6 +246,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
 ---
 
 ### ID 7. New User Registration & Trail Drop
+<details>
+<summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 7:** Register and fill out a Trail Drop in 1 of 2 ways. Indicate which you chose in comments.
    - (A) Register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
@@ -261,6 +263,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - Trail Drop submission via registered/logged in account gives 30% more points than *Guest* (i.e. 10 member vs 7 guest, or 5 member vs 3.5 guest)
    - Evaluate screens that explain steps (register after scan, activate, login, continue with scan), are they intuitive? 
 4. **Expected:** Flow “Sign Up → Activate → Submit” completes end‑to‑end.
+
+</details>
 
 ---
 
