@@ -22,7 +22,7 @@ Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questio
    4. [ID 4: Social Single Sign-On (Google & Twitter)](#id-4-social-single-signon-google--twitter)
    5. [ID 5: Trail Drop as Guest](#id-5-trail-drop-as-guest)  
    6. [ID 6: Trail Drop as Registered User](#id-6-trail-drop-as-registered-user)  
-   7. [ID 7: …](#id-7)  
+   7. [ID 7: New User Registration & Trail Drop](#id-7-new-user-registration--trail-drop)  
    8. [ID 8: …](#id-8)  
 
 ---
@@ -245,14 +245,21 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-### ID 7. New‑User Registration & Trail Drop
+### ID 7. New User Registration & Trail Drop
 
-1. **Scenario ID 7:** From the homepage, click **Sign Up**, fill out username/password/email, then log in.  
+1. **Scenario ID 7:** Register and fill out a Trail Drop in 1 of 2 ways. Indicate which you chose in comments.
+   - (A) Register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
+   - (B) First scan the QR code (again, provided below), then click the "Register" tab, register and complete the scan.
+   <p align="center">
+      <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
+   </p>
+   Note: You may need to login and delete other accounts you have created. Also if you choose (B) you should be able to register via Single Sign‑On (Google & Twitter) if you wish.
 2. **Step:** Scan the **Store QR Code**, submit a Trail Drop.  
 3. **Verify:**  
-   - Account creation email (if any) arrives.  
-   - After email activation (if required), you can log in.  
-   - Trail Drop submission appears under **My Activity**.  
+   - Account activation email (if using conventional registration) arrives. Check spam/updates folders. 
+   - After email activation (click link in email), you can log in.  
+   - Trail Drop submission via registered/logged in account gives 30% more points than *Guest* (i.e. 10 member vs 7 guest, or 5 member vs 3.5 guest)
+   - Evaluate screens that explain steps (register after scan, activate, login, continue with scan), are they intuitive? 
 4. **Expected:** Flow “Sign Up → Activate → Submit” completes end‑to‑end.
 
 ---
