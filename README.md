@@ -57,11 +57,7 @@ ShopperTrail (brief) informational landing page: <a href="https://shoppertrail.c
 
 Perform the actions in the below test scenarios and record your results. One **Scenario ID** = one row in the <a href="https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing" target="_blank" rel="noopener">Google Sheets "UAT-Data" document</a> which you can fill out as you go.  
 
-UAT-Data Google Sheet:  
-
-![UAT Data Example](./UAT-Data-Ex.png)  
-
-Screen recording of filling out the UAT-Data sheet (GitHub only allows short gifs).  
+Screen recording of filling out the UAT-Data Google Sheet (GitHub only allows short gifs).  
 
 ![Quick demo of UAT flow](./UAT-Data-Screen-Rec.gif)
 
