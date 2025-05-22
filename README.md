@@ -57,13 +57,7 @@ ShopperTrail (brief) informational landing page: <a href="https://shoppertrail.c
 
 Perform the actions in the below test scenarios from the **Scenario ID List.** Record your results in the Google Sheets "UAT-Data" document, one **Scenario ID** should equal **One Row**. Each row should at least contain values for the following columns:  
 
-- Tester Name	
-- Scenario ID	
-- Scenario Description	
-- Pass/Fail	
-- Main Comments
-- Device Type 
-- Browser
+**Tester Name**, **Scenario ID**, **Scenario Description**, **Pass/Fail**, **Main Comments**, **Device Type**, **Browser**.  
 
 ### UAT-Data Google Sheet Link
 
@@ -81,14 +75,15 @@ Example of completing the UAT-Data Google Sheet. This just gives you an idea, th
       style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:4px;"
     >
     <figcaption style="font-size:0.9em; color:#555; margin-top:0.5rem;">
-      Choose the test case by selecting the “Scenario ID” dropdown. These correspond to the <strong>Scenario ID List</strong> below.
+      Select your test case from the “Scenario ID” dropdown. These correspond to the <strong>Scenario ID List</strong> below.
     </figcaption>
   </figure>
 
 ### Screenshots
 
 Screenshots are appreciated so that we can understand what you are or are not seeing on your particular device/browser. Do colors/fonts seem off? Is the ShopperTrail copy not clear? Did you encounter an error?  
-  - Screenshots can be uploaded to <a href="https://drive.google.com/drive/folders/1IzFfxT1jxnsi00PgxqbIxyPiDnhVURZw?usp=sharing" target="_blank" rel="noopener">this Google Drive folder.</a> 
+  - Upload screenshots to **UAT Screenshots** folder:  
+      <a href="https://drive.google.com/drive/folders/1IzFfxT1jxnsi00PgxqbIxyPiDnhVURZw?usp=sharing" target="_blank" rel="noopener">UAT Screenshots</a> 
   - Once uploaded hover over the screenshot and click the share icon.
   - Make sure "Anyone with the link" is selected under "General Access." 
   - Click "Copy link." 
