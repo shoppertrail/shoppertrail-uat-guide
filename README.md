@@ -77,11 +77,9 @@ Screen recording example of completing the UAT-Data Google Sheet. This just give
       style="max-width:100%; height:auto; border:1px solid #ddd; border-radius:4px;"
     >
     <figcaption style="font-size:0.9em; color:#555; margin-top:0.5rem;">
-      Choose the test case by selecting the “Scenario ID” dropdown.
+      Choose the test case by selecting the “Scenario ID” dropdown. These correspond to the <strong>Scenario ID List</strong> below.
     </figcaption>
   </figure>
-<br>
-These Scenario IDs correspond to the **Scenario ID List** below.  
 
 ### Screenshots
 
