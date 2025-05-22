@@ -307,7 +307,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
 - **Priority 1:** Steps 1–4 (core site flow, login, content, social SSO).  
 - **Priority 2:** Steps 5–6 (guest & registered Trail Drops).  
 - **Priority 3:** Steps 7–9 (new sign‑up, guest QR transfer, QR Trail Perk creation).  
-- After completing these, please capture any screenshots, error messages, or suggestions; note the device/browser used.
+- After (or while) completing these Scenario IDs, ensure you have filled out the rows in the [UAT-Data Google Sheet Link](#uat-data-google-sheet-link) one row = one ID.
+   - Capture any screenshots, error messages, or suggestions/comments; note the device/browser used.
 - If you discover missing data, ShopperTrail points or general math errors, please try to record the page URL and console/network errors.
 - Have more comments to write? Cool! We'd greatly appreciate additional feedback! Don't hold back 😊 You can create a blank doc and write free form in this folder:
 <a href="https://drive.google.com/drive/folders/1VChj_wanoMJUNUdKxlDzv4MZufReLPBY?usp=sharing" target="_blank" rel="noopener">Folder Link</a> 
