@@ -287,13 +287,18 @@ Screenshots are appreciated so that we can understand what you are or are not se
 ---
 
 ### ID 8. Transfer Guest Trail Perk
+<details>
+<summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 8:** On your mobile, scan one of the **Guest QR Codes** generated in Step 5 that you emailed to yourself.  
 2. **Verify:**  
    - You’re prompted to log in (if not already).  
-   - Upon login, points from the guest code are credited to your account balance.  
+   - You may use your social sign-on (Google or X/Twitter) (ID 4) or a normal registered account (ID 7) 
+   - Upon login, confirm that you wish to transfer points to your account. Now verify points from the guest code are credited to your account balance.  
    - Attempting to redeem the same guest code again should be disallowed.  
 3. **Expected:** Points credit succeeds once, further attempts yield an error message.
+
+</details>
 
 ---
 
@@ -301,8 +306,10 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 - **Priority 1:** Steps 1–4 (core site flow, login, content, social SSO).  
 - **Priority 2:** Steps 5–6 (guest & registered Trail Drops).  
-- **Priority 3:** Steps 7–8 (new sign‑up + guest QR redemption).  
+- **Priority 3:** Steps 7–9 (new sign‑up, guest QR transfer, QR Trail Perk creation).  
 - After completing these, please capture any screenshots, error messages, or suggestions; note the device/browser used.
-- If you discover missing data (e.g. no subscription tiers displayed), record the exact page URL and console/network errors.
+- If you discover missing data, ShopperTrail points or general math errors, please try to record the page URL and console/network errors.
+- Have more comments to write? Cool! We'd greatly appreciate additional feedback! Don't hold back 😊 You can create a blank doc and write free form in this folder:
+<a href="https://drive.google.com/drive/folders/1VChj_wanoMJUNUdKxlDzv4MZufReLPBY?usp=sharing" target="_blank" rel="noopener">Folder Link</a> 
 
 Happy testing! 🎉  
