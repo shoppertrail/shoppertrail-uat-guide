@@ -59,10 +59,13 @@ Perform the actions in the below test scenarios and record your results. One **S
 
 UAT-Data Google Sheet:  
 
-![UAT Data Example](./UAT-Data-Ex.png) 
+![UAT Data Example](./UAT-Data-Ex.png)  
 
+Short screen recording of filling out the UAT-Data sheet.  
 
-Scenario IDs 1 - 8 correspond to the **Scenario ID List** below. 
+[▶️ Watch the UAT screen recording](./UAT-Data-Screen-Rec.mp4)  
+
+Scenario IDs 1 - 8 correspond to the **Scenario ID List** below.  
 
 ### Screenshots
 
@@ -249,20 +252,19 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
-1. **Scenario ID 7:** Register and fill out a Trail Drop in 1 of 2 ways. Indicate which you chose in comments.
+1. **Scenario ID 7:** Register/fill out a Trail Drop in one of two ways **(A) or (B)** listed below. Indicate which you chose in comments.
    - **(A)** Register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
    - **(B)** First scan the QR code (again, provided below), then click the "Register" tab, register and complete the scan.
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
    </p>
-   Note: You may need to login and delete other accounts you have created. Also if you choose <strong>(B)</strong> you should be able to register via Single Sign‑On (Google & Twitter) if you wish.
-2. **Step:** Scan the **Store QR Code**, submit a Trail Drop.  
-3. **Verify:**  
+   Note: You may need to login and delete other accounts you have created so that you do not get an "email already in use" error. Also if you choose <strong>(B)</strong> you should be able to register via Single Sign‑On (Google & Twitter) if you wish.
+2. **Verify:**  
    - Account activation email (if using conventional registration) arrives. Check spam/updates folders. 
    - After email activation (click link in email), you can log in.  
    - Trail Drop submission via registered/logged in account gives 30% more points than *Guest* (i.e. 10 member vs 7 guest, or 5 member vs 3.5 guest)
    - Evaluate screens that explain steps (register after scan, activate, login, continue with scan), are they intuitive? 
-4. **Expected:** Flow “Sign Up → Activate → Submit” completes end‑to‑end.
+3. **Expected:** Flow “Sign Up → Activate → Submit” completes end‑to‑end.
 
 </details>
 
