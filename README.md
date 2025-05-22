@@ -255,7 +255,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
    </p>
-   Note: You may need to login and delete other accounts you have created. Also if you choose **(B)** you should be able to register via Single Sign‑On (Google & Twitter) if you wish.
+   Note: You may need to login and delete other accounts you have created. Also if you choose <strong>(B)</strong> you should be able to register via Single Sign‑On (Google & Twitter) if you wish.
 2. **Step:** Scan the **Store QR Code**, submit a Trail Drop.  
 3. **Verify:**  
    - Account activation email (if using conventional registration) arrives. Check spam/updates folders. 
