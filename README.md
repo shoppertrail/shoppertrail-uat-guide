@@ -2,7 +2,7 @@
 
 Thanks for helping us test ShopperTrail!
 
-Below is a prioritized instructions list of end‑to‑end test scenarios for UAT which runs in a staging environment (non-permanent data).  Each tester should spend ~30–45 minutes working through core flows (Steps 1–4), then—time permitting—move on to guest accounts and QR‑code manipulation (Steps 5–8).
+Below is a prioritized instructions list of end‑to‑end test scenarios for UAT which runs in a staging environment (non-permanent data).  Each tester should spend ~30 minutes working through core flows (Steps 1–4), then—time permitting—move on to guest accounts and QR‑code manipulation (Steps 5–9). Testing and documentation should take about an hour. 
 
 Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questions regarding these instructions.  
 
