@@ -250,12 +250,12 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 7:** Register and fill out a Trail Drop in 1 of 2 ways. Indicate which you chose in comments.
-   - (A) Register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
-   - (B) First scan the QR code (again, provided below), then click the "Register" tab, register and complete the scan.
+   - **(A)** Register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
+   - **(B)** First scan the QR code (again, provided below), then click the "Register" tab, register and complete the scan.
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
    </p>
-   Note: You may need to login and delete other accounts you have created. Also if you choose (B) you should be able to register via Single Sign‑On (Google & Twitter) if you wish.
+   Note: You may need to login and delete other accounts you have created. Also if you choose **(B)** you should be able to register via Single Sign‑On (Google & Twitter) if you wish.
 2. **Step:** Scan the **Store QR Code**, submit a Trail Drop.  
 3. **Verify:**  
    - Account activation email (if using conventional registration) arrives. Check spam/updates folders. 
