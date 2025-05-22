@@ -26,7 +26,7 @@ Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questio
    5. [ID 5: Trail Drop as Guest](#id-5-trail-drop-as-guest)  
    6. [ID 6: Trail Drop as Registered User](#id-6-trail-drop-as-registered-user)  
    7. [ID 7: New User Registration & Trail Drop](#id-7-new-user-registration--trail-drop)  
-   8. [ID 8: …](#id-8)  
+   8. [ID 8: Transfer Guest Trail Perk](#id-8-transfer-guest-trail-perk)  
 
 ---
 
@@ -208,7 +208,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 1. **Scenario ID 5:**  This scenario tests the core ShopperTrail feedback feature for *Guests.*  
 
     Leaving feedback (called a "Trail Drop") for a store, typically constitutes why a shopper left without buying an item (wrong style/brand). Although feedback can also be that they were happy to find/purchase an item in-stock. Providing feedback as a guest does not require a ShopperTrail account. 
-   - On your mobile device, open the camera (or our QR‑scanner app) and scan the **Store QR Code** below. Note, in the real world this may be at the store's counter or posted inside the door. 
+   - Make sure you are logged out of ShopperTrail. Now, on your mobile device, open the camera (or the ShopperTrail QR‑scanner) and scan the **Store QR Code** below. Note, in the real world this may be at the store's counter or posted inside the door. 
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
    </p>
@@ -286,9 +286,9 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ---
 
-### ID 8. Guest‑QR Redemption to Registered Account
+### ID 8. Transfer Guest Trail Perk
 
-1. **Scenario ID 8:** On your mobile, scan one of the **Guest QR Codes** generated in Step 5.  
+1. **Scenario ID 8:** On your mobile, scan one of the **Guest QR Codes** generated in Step 5 that you emailed to yourself.  
 2. **Verify:**  
    - You’re prompted to log in (if not already).  
    - Upon login, points from the guest code are credited to your account balance.  
