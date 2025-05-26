@@ -27,8 +27,8 @@ Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questio
    6. [ID 6: Trail Drop as Registered User](#id-6-trail-drop-as-registered-user)  
    7. [ID 7: New User Registration & Trail Drop](#id-7-new-user-registration--trail-drop)  
    8. [ID 8: Transfer Guest Trail Perk](#id-8-transfer-guest-trail-perk)  
-   9. [ID 9: User Generated Trail Perk](#id-8-user-generated-trail-perk)  
-   10. [ID 10: Redeem Trail Perk](#id-8-redeem-trail-perk)  
+   9. [ID 9: User Generated Trail Perk](#id-9-user-generated-trail-perk)  
+   10. [ID 10: Redeem Trail Perk](#id-10-redeem-trail-perk)  
 
 ---
 
