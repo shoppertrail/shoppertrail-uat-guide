@@ -2,7 +2,7 @@
 
 Thanks for helping us test ShopperTrail!
 
-Below is a prioritized instructions list of end‑to‑end test scenarios for UAT which runs in a staging environment (non-permanent data).  Each tester should spend ~30 minutes working through core flows (Steps 1–4), then—time permitting—move on to guest accounts and QR‑code manipulation (Steps 5–9). Testing and documentation should take about an hour. 
+Below is a prioritized instructions list of end‑to‑end test scenarios for UAT which runs in a staging environment (non-permanent data).  Each tester should spend ~30 minutes working through core flows (Steps 1–4), then—time permitting—move on to guest accounts and QR‑code manipulation (Steps 5–10). Testing and documentation should take about an hour. 
 
 Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questions regarding these instructions.  
 
@@ -119,7 +119,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    ![Homepage – scroll down](./Homepage_2.jpg)
 
    - Main video loads and plays (click cover gif or link). Loading timer emoji displays with font (if video loads fast you might not see this).
-   - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in a T-Shirt logo click goes to user's dashboard.
+   - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in, a T-Shirt logo click goes to user's dashboard.
    - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages. Note, Login/Register replaces the page graphics with all auth buttons.
    - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner.
      - Click to show quick scanner and grant browser camera permissions. Ensure ShopperTrail scanner pops up. Hide scanner and exit for now.
@@ -162,7 +162,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 3. Click "My Stores and Points" towards the bottom, click "ABC Store" 
 4. **Verify:**  
    - Successful login redirects to the user dashboard. Note, clicking the t-shirt logo brings you back to the dashboard now.
-   - There should be at least 10 points in this account
+   - There should be at least 5 points in this account
    - Account changes took place (step 2), verify this by clicking "Edit Profile" again
    - Verify the details for "ABC Store" come up when clicked (step 3)
    - **Account > Logout** correctly ends the session and shows a logout page. Click back to the homepage by clicking the T-Shirt logo.  
@@ -375,6 +375,7 @@ The selected Trail Perk is redeemed and removed from the “My Trail Perks” li
 - **Priority 3:** Steps 7–10 (new sign‑up, guest QR transfer, QR Trail Perk creation/redemption).  
 - After (or while) completing these Scenario IDs, ensure you have filled out the rows in the [UAT-Data Google Sheet Link](#uat-data-google-sheet-link) one row = one ID.
    - Capture any screenshots, error messages, or suggestions/comments; note the device/browser used.
+   - You can use your name & last initial, or full first and last name if you wish. 
 - If you discover missing data, ShopperTrail points or general math errors etc, please try to record the page URL and console/network errors.
 - Have more comments to write? Cool! We'd greatly appreciate additional feedback! Don't hold back 😊 You can create a blank doc and write free form in this folder:
 <a href="https://drive.google.com/drive/folders/1VChj_wanoMJUNUdKxlDzv4MZufReLPBY?usp=sharing" target="_blank" rel="noopener">Folder Link</a> 
