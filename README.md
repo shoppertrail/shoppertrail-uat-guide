@@ -105,20 +105,21 @@ Screenshots are appreciated so that we can understand what you are or are not se
 1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com` (note browser)  
 2. **Verify:**
    - Branding (logo, fonts, colors) matches the provided screenshots.
-   - Homepage TOP - Main page - logo should fade in and out in front of a background image.  
+   - Note any visual inconsistencies (this is helpful note during all test scenario IDs).
+   - Homepage TOP - Main page - logo should fade in/out, in front of a background image.  
 
    ![Homepage – top](./Homepage_1.jpg)  
    
-   - Homepage scrolled down - Main page as user scrolls - Should have buttons
+   - Homepage scrolled down - Main page as user scrolls - Should have buttons:
      1. Login / Register
      2. Scan a ShopperTrail QR
      3. About
-   - Should include a link for retailer sign-up info (for "Store" users)
-   - Should include ShopperTrail Overview Video  
+   - Should include a link for retailer sign-up info (for "Store" users).
+   - Should include ShopperTrail Overview Video.  
 
    ![Homepage – scroll down](./Homepage_2.jpg)
 
-   - Main video loads and plays (click cover gif or link). Loading timer emoji displays with font (if video loads fast you might not see this).
+   - Main video loads and plays (click cover gif or link), no need to watch entire video. Loading timer emoji displays with font (if video loads fast you might not see this).
    - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in, a T-Shirt logo click goes to user's dashboard.
    - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages. Note, Login/Register replaces the page graphics with all auth buttons.
    - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner.
@@ -138,12 +139,12 @@ Screenshots are appreciated so that we can understand what you are or are not se
 1. **Scenario ID 2:** Click **About** in the main menu.  
 2. **Verify:**  
    - Modal (pop up box) shows informing the user that all information is in one place.
-   - Now navigate *back* to the homepage and again to the *About* page. The modal should no longer appear.
-   - Two main sections are available “For Customers” and “For Store Partners”
-     - Clicking one main section should change the table of contents to reflect the proper main section
+   - Now navigate *back* to the homepage and again *navigate to* the **About** page. The modal should *no longer appear.*
+   - Two main sections are available “For Customers” and “For Store Partners.”
+     - Clicking one main section should change the table of contents to reflect the proper main section.
    - Click and scroll through a few sub-sections of the table of contents to make sure there are no glitches. No need to read everything.
-   - Click a sub-section with a video thumbnail (camcorder emoji). Ensure video plays on click. No need to view all.
-3. **Expected:** Content is present and legible; video playback initiates on tap/click.
+   - Click a sub-section with a video thumbnail (camcorder emoji). Ensure video plays on click. No need to view the whole video.
+3. **Expected:** Content is present and legible for the associated **About** page sections; video playback initiates on tap/click.
 
 </details>
 
@@ -159,14 +160,14 @@ Screenshots are appreciated so that we can understand what you are or are not se
 2. Using the top menu Click "Account" > "Edit Profile" and change values of `How often do you shop in stores?` or `Zip` to a new selection or value.
    - *Please DO NOT* change username or email.
    - *Please DO NOT* delete account or change password.
-3. Click "My Stores and Points" towards the bottom, click "ABC Store" 
+3. On the main user dashboard click "My Stores and Points" towards the bottom, click "ABC Store." 
 4. **Verify:**  
-   - Successful login redirects to the user dashboard. Note, clicking the t-shirt logo brings you back to the dashboard now.
-   - There should be at least 5 points in this account
-   - Account changes took place (step 2), verify this by clicking "Edit Profile" again
-   - Verify the details for "ABC Store" come up when clicked (step 3)
+   - Successful login redirects to the user dashboard. Note, clicking the t-shirt logo brings you back to the dashboard now (since you are logged into an account).
+   - There should be at least 5 points in this account.
+   - Account changes took place (step 2), verify this by clicking "Edit Profile" again.
+   - Verify the details for "ABC Store" come up when clicked (step 3).
    - **Account > Logout** correctly ends the session and shows a logout page. Click back to the homepage by clicking the T-Shirt logo.  
-5. **Expected:** Login/logout and basic dashboard and store info render properly. Account > Edit Profile flow works.
+5. **Expected:** Login/logout and basic dashboard and store info render properly. "Account" > "Edit Profile" flow works.  
 
 </details>
 
@@ -177,7 +178,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 4:** Navigate to **Login / Register**, choose **Google Sign-in** or **X-Twitter Sign-in**.
-   - If you are already logged in with Google or Twitter, you may not need to verify your social account
+   - If you are already logged in with Google or Twitter in your browser, you may not need to verify your social account
    - Reminder:
      - Your single sign-on email is *not* retained, it is in a `staging` environment where data gets deleted frequently.
      - You are also <mark>free to delete your account manually at anytime</mark> via "Account" > "Delete Account"
@@ -185,9 +186,9 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - How frequently you shop in physical stores
    - Your zip code
 3. Click "Account" > "Edit Profile" change your `username` or `How often do you shop in stores?` or `Zip`
-4. Click "Account" > "Edit Profile" change your email *if* you have another email address you can use/verify.
+4. Click "Account" > "Edit Profile" change your email *if* you have another email address you can access to verify.
 5. **Verify:**  
-    - OAuth popup works and allows you to complete authentication via Google or Twitter/X verification, if you're not already logged in (step 1).
+    - After click of Google or X/Twitter sign-on, verify OAuth popup from that service provider works and allows you to complete authentication, if you're not already logged in (step 1).
     - After answering (step 2) questions, verify that you are signed in to ShopperTrail by clicking on the *ShopperTrail app dashboard* link. You can also click the t-shirt logo.
       - You should see a message that indicates your username and that it can be changed if you wish.
       - You should see a pop-up that says something like "As a member, you increased your Trail Drop submission limit..." 
@@ -197,7 +198,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
     - Verify (step 3) took place by clicking again "Account" > "Edit Profile"
     - Verify (step 4) if you completed this. Log-in again with single sign-on and check "Account" > "Edit Profile" 
 6. **Expected:** Social login completes, account is created, and session persists. 
-   - Delete your account if you wish. You can re-test if you'd like. 
+   - Delete your account if you wish ("Account" > "Delete Account"). You can re-test this Scenario ID 4 if you'd like. 
 
 </details>
 
