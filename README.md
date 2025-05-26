@@ -118,9 +118,9 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
    ![Homepage – scroll down](./Homepage_2.jpg)
 
-   - Main video loads and plays (click cover gif or link). Loading timer emoji displays with font.
-   - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in, return to user's dashboard.
-   - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages.
+   - Main video loads and plays (click cover gif or link). Loading timer emoji displays with font (if video loads fast you might not see this).
+   - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in a T-Shirt logo click goes to user's dashboard.
+   - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages. Note, Login/Register replaces the page graphics with all auth buttons.
    - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner.
      - Click to show quick scanner and grant browser camera permissions. Ensure ShopperTrail scanner pops up. Hide scanner and exit for now.
 3. **Expected:** Page renders cleanly in less than 2 seconds, video playback starts without error, links navigate correctly. ShopperTrail scanner appears.
