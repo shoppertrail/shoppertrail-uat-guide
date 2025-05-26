@@ -27,6 +27,8 @@ Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questio
    6. [ID 6: Trail Drop as Registered User](#id-6-trail-drop-as-registered-user)  
    7. [ID 7: New User Registration & Trail Drop](#id-7-new-user-registration--trail-drop)  
    8. [ID 8: Transfer Guest Trail Perk](#id-8-transfer-guest-trail-perk)  
+   9. [ID 9: User Generated Trail Perk](#id-8-user-generated-trail-perk)  
+   10. [ID 10: Redeem Trail Perk](#id-8-redeem-trail-perk)  
 
 ---
 
@@ -270,7 +272,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 1. **Scenario ID 7:** Register/fill out a Trail Drop in one of two ways **(A) or (B)** listed below. Indicate which you chose in comments.
    - **(A)** Register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
-   - **(B)** First scan the QR code (again, provided below), then click the "Register" tab, register and complete the scan.
+   - **(B)** First scan the QR code (again, provided below), then click the "Register" tab, complete standard registration and then finish the flow after the scan (this should be saved for your so you don't have to scan again).
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
    </p>
@@ -290,13 +292,77 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
-1. **Scenario ID 8:** On your mobile, scan one of the **Guest QR Codes** generated in Step 5 that you emailed to yourself.  
+1. **Scenario ID 8:** On your mobile, scan one of the **Guest QR Codes** generated in Step 5 that you emailed to yourself. 
 2. **Verify:**  
    - You’re prompted to log in (if not already).  
    - You may use your social sign-on (Google or X/Twitter) (ID 4) or a normal registered account (ID 7) 
    - Upon login, confirm that you wish to transfer points to your account. Now verify points from the guest code are credited to your account balance.  
    - Attempting to redeem the same guest code again should be disallowed.  
 3. **Expected:** Points credit succeeds once, further attempts yield an error message.
+
+Note: As an alternative to scanning one of your **Guest QR Codes**, you can try to transfer a guest token. 
+   - Copy + paste your Guest Trail Perk's token (UUID) listed in the email you sent to yourself after submitting a guest Trail Drop. 
+   - In your logged in account, navigate to "Nav" > "Add Guest Tokens" paste in your guest token and click "Add Tokens!" 
+   - This allows for adding many tokens (and associated points) at once to an account. 
+   - If you did performed this alternative/additional method of adding guest points to your account, please indicate this in the "UAT-Data" Google Sheet.
+   - You can do both methods if you created/emailed/saved more than one Guest Trail Perk. 
+   - In the real world, people may create many Guest Trail Perks before creating an account. 
+
+</details>
+
+---
+
+### ID 9. User Generated Trail Perk
+<details>
+<summary><strong>Expand / Collapse</strong></summary>
+
+1. **Scenario ID 8:** In your logged in account, navigate to "Nav" > "Create Trail Perk"
+   - Read some of the copy. What Trail Perks are, how to create and use them. 
+   - Make a selection for type of Trail Perk you'd like to create. A "General Trail Perk" can be redeemed anywhere but uses 95% of your points. 
+   A store specific Trail Perk, is created at 100% point value, but can only be used at that particular store. 
+   - In the first selection dropdown you should have options of "General Trail Perk" and then a list of stores at which you have points and point totals. 
+2. **Verify:**  
+   - You understand the copy. I tried to keep it as simple and minimal as possible while also providing additional dropdowns and detail if needed.
+   - You can create a Trail Perk
+   - Upon creation, the Trail Perk Created screen is displayed. See below.  
+
+   ![Trail Perk Created](./Trail_Perk_Created_Screen.jpg)  
+
+   - The Trail Perk Created screen should let you know if it is a General or Store Specific Trail Perk. How much it's worth and the QR image itself. 
+   - Navigate to "Nav" > "My Trail Perks" (you may need to refresh the page if "My Trail Perks" is not listed)
+   - Verify that your newly created Trail Perk is listed. 
+3. **Expected:** Points credit succeeds once, further attempts yield an error message.
+
+</details>
+
+---
+
+### ID 10: Redeem Trail Perk
+<details>
+<summary><strong>Steps</strong> (click to expand)</summary>
+
+1. **Access**  
+   - In your logged in account, go to **Nav > My Trail Perks**. 
+      - You should now have a user generated trail perk (Test ID 9) 
+   - Click **Details...** on any available perk.  
+     ![Trail Perk Details](./Trail_Perk_Details.jpg)
+
+   Context: ShopperTrail users create a Trail Perk matching a store’s 
+   point-based offer—for example, a 50-point perk to claim a free coffee at a deli. 
+   At checkout, they open that perk and swipe the slider in front of a store associate, instantly redeeming the reward.
+   - Before you redeem make a mental note of the first 3 characters of the Trail Perk Token (example format: `d4202c13-b359-4193-b355-cf046beff83c`)
+
+2. **Redeem**     
+   - Swipe the slider.  
+   - Confirm the alert.
+
+3. **Verify**  
+   - The detail view updates to “Redeemed.”  
+   - That perk with the first 3 characters you noted, is gone. Check  **Nav > My Trail Perks**.  
+     ![Trail Perk Redeemed](./Trail_Perk_Details_Redeemed.jpg)
+
+**Expected Result:**  
+The selected Trail Perk is redeemed and removed from the “My Trail Perks” list.
 
 </details>
 
@@ -306,7 +372,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 - **Priority 1:** Steps 1–4 (core site flow, login, content, social SSO).  
 - **Priority 2:** Steps 5–6 (guest & registered Trail Drops).  
-- **Priority 3:** Steps 7–9 (new sign‑up, guest QR transfer, QR Trail Perk creation).  
+- **Priority 3:** Steps 7–10 (new sign‑up, guest QR transfer, QR Trail Perk creation/redemption).  
 - After (or while) completing these Scenario IDs, ensure you have filled out the rows in the [UAT-Data Google Sheet Link](#uat-data-google-sheet-link) one row = one ID.
    - Capture any screenshots, error messages, or suggestions/comments; note the device/browser used.
 - If you discover missing data, ShopperTrail points or general math errors etc, please try to record the page URL and console/network errors.
