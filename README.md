@@ -178,26 +178,25 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 4:** Navigate to **Login / Register**, choose **Google Sign-in** or **X-Twitter Sign-in**.
-   - If you are already logged in with Google or Twitter in your browser, you may not need to verify your social account
+   - If you are already logged in with Google or X/Twitter in your browser, you may not need to verify your social account.
    - Reminder:
      - Your single sign-on email is *not* retained, it is in a `staging` environment where data gets deleted frequently.
-     - You are also <mark>free to delete your account manually at anytime</mark> via "Account" > "Delete Account"
+     - You are also <mark>free to delete your account manually at anytime</mark> via "Account" > "Delete Account."
+     - If you don't have a Google or X/Twitter account or if you prefer not to do this Scenario ID 4, feel free to skip.
 2. Since single sign-on is used, ShopperTrail asks 2 additional questions to register a user profile.
    - How frequently you shop in physical stores
    - Your zip code
-3. Click "Account" > "Edit Profile" change your `username` or `How often do you shop in stores?` or `Zip`
+3. Click "Account" > "Edit Profile" change your `username` or `How often do you shop in stores?` or `Zip`.
 4. Click "Account" > "Edit Profile" change your email *if* you have another email address you can access to verify.
 5. **Verify:**  
     - After click of Google or X/Twitter sign-on, verify OAuth popup from that service provider works and allows you to complete authentication, if you're not already logged in (step 1).
     - After answering (step 2) questions, verify that you are signed in to ShopperTrail by clicking on the *ShopperTrail app dashboard* link. You can also click the t-shirt logo.
       - You should see a message that indicates your username and that it can be changed if you wish.
       - You should see a pop-up that says something like "As a member, you increased your Trail Drop submission limit..." 
-        - Log out and log in a few times, verify that this pop-up no longer appears.
-    - Verify Upon first log-in there should be a pop-up message that explains increased rewards of an account.
-      - Log out and log back in again this pop-up should not appear again. 
-    - Verify (step 3) took place by clicking again "Account" > "Edit Profile"
-    - Verify (step 4) if you completed this. Log-in again with single sign-on and check "Account" > "Edit Profile" 
-6. **Expected:** Social login completes, account is created, and session persists. 
+        - Log out and log-in a few times, verify that this pop-up no longer appears. 
+    - Verify (step 3) took place by clicking again "Account" > "Edit Profile."
+    - Verify (step 4) *if you completed this.* Log-in again with single sign-on and check "Account" > "Edit Profile" your new email should be listed.
+6. **Expected:** Social login completes successfully, account is created, and session persists. 
    - Delete your account if you wish ("Account" > "Delete Account"). You can re-test this Scenario ID 4 if you'd like. 
 
 </details>
