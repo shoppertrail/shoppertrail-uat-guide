@@ -373,11 +373,11 @@ The selected Trail Perk is redeemed and removed from the “My Trail Perks” li
 - **Priority 1:** Steps 1–4 (core site flow, login, content, social SSO).  
 - **Priority 2:** Steps 5–6 (guest & registered Trail Drops).  
 - **Priority 3:** Steps 7–10 (new sign‑up, guest QR transfer, QR Trail Perk creation/redemption).  
-- After (or while) completing these Scenario IDs, ensure you have filled out the rows in the [UAT-Data Google Sheet Link](#uat-data-google-sheet-link) one row = one ID.
+- After (fill out as you go) completing these Scenario IDs, ensure you have filled out the rows in the [UAT-Data Google Sheet Link](#uat-data-google-sheet-link) one row = one ID.
    - Capture any screenshots, error messages, or suggestions/comments; note the device/browser used.
-   - You can use your name & last initial, or full first and last name if you wish. 
+   - You can use your name & last initial, or first and last full name if you wish. Other testers will see the sheet.  
 - If you discover missing data, ShopperTrail points or general math errors etc, please try to record the page URL and console/network errors.
-- Have more comments to write? Cool! We'd greatly appreciate additional feedback! Don't hold back 😊 You can create a blank doc and write free form in this folder:
+- Have more comments to write? Cool! We'd greatly appreciate additional feedback! Don't hold back 😊 There should be a blank doc with your first name & last initial in this folder:
 <a href="https://drive.google.com/drive/folders/1VChj_wanoMJUNUdKxlDzv4MZufReLPBY?usp=sharing" target="_blank" rel="noopener">Folder Link</a> 
 
 Happy testing! 🎉  
