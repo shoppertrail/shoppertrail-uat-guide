@@ -248,7 +248,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
    </p>
-   <strong>Screen should appear</strong> as below after scan: 
+   <strong>Screen should appear</strong> as below after scan, this is what a logged in user sees after scanning a store's QR Code: 
 
    ![Logged In User Scan Screen](./Logged_In_User_Scan.jpg)  
 
