@@ -316,7 +316,7 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
-1. **Scenario ID 8:** In your logged in account, navigate to "Nav" > "Create Trail Perk"
+1. **Scenario ID 9:** In your logged in account, navigate to "Nav" > "Create Trail Perk"
    - Read some of the copy. What Trail Perks are, how to create and use them. 
    - Make a selection for type of Trail Perk you'd like to create. A "General Trail Perk" can be redeemed anywhere but uses 95% of your points. 
    A store specific Trail Perk, is created at 100% point value, but can only be used at that particular store. 
@@ -341,7 +341,7 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 <details>
 <summary><strong>Steps</strong> (click to expand)</summary>
 
-1. **Access**  
+1. **Scenario ID 10:**  
    - In your logged in account, go to **Nav > My Trail Perks**. 
       - You should now have a user generated trail perk (Test ID 9) 
    - Click **Details...** on any available perk.  
