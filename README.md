@@ -222,15 +222,15 @@ Screenshots are appreciated so that we can understand what you are or are not se
    
    ![Trail Perk Earned](./Trail_Perk_Earned.jpg)  
    
-   Add an email address to which to send your earned points - Trail Perk QR code
+   Add an email address to which to send your earned points - Trail Perk QR code.
 2. **Verify:**  
    - A confirmation screen appears. You've just earned ShopperTrail points without having an account. The points are in the QR Code. 
-   - Check that the copy makes sense, you can copy / save the token, take a screenshot or email your QR code to yourself (or anywhere). 
+   - Check that the copy makes sense, you can copy / save the token, take a screenshot, or email your QR code to yourself (or anywhere). 
    - Detailed Guest Guide is available on this screen too as a refresher of the process. 
-   - No account is required.  
+   - No account is required to gain points.  
    - Check email, ShopperTrail Trail Perk should have arrived in your inbox (spam/updates/promotions)
 3. **Repeat:** Scan again, choose another scenario, if you did not make a purchase last time maybe you select that you did make a purchase this time. Rate satisfaction, etc. Submit.  
-4. **Expected:** Both submissions succeed, guest QR redemption code is displayed or emailed.
+4. **Expected:** Both submissions succeed, Trail Perk Earned screen is displayed, Trail Perk is understandable and can be emailed.
 
 </details>
 
@@ -241,10 +241,10 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 6:** Log in with your ShopperTrail user.  
-   - You may use your ShopperTrail account created via Social Sign-On (ID 4) i.e. Google or the seeded account, which is:
+   - You may use your ShopperTrail account created via Social Sign-On (ID 4) i.e. Google. Or you may use the seeded account, which is:
       - Username: `customer_user2`  
       - Password: `HelloWorldForever!1` 
-2. **Step:** Click QR Code Scanners, scan the **Store QR Code** (provided again below) and submit a Trail Drop (purchase or no‑purchase).  
+2. **Step:** After log-in, click "QR Code Scanners", scan the **Store QR Code** (provided again below) and submit a Trail Drop (purchase or no‑purchase).  
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
    </p>
