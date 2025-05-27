@@ -60,6 +60,8 @@ Perform the actions in the below test scenarios from the **Scenario ID List.** R
 
 **Tester Name**, **Scenario ID**, **Scenario Description**, **Pass/Fail**, **Main Comments**, **Device Type**, **Browser**.  
 
+**Tip:** Have this guide open in one tab, UAT-Data Google Sheet open in another tab and your email provider open in a 3rd tab. Have your phone handy to scan the Store QR Codes in this document as you test. 
+
 ### UAT-Data Google Sheet Link
 
 <a href="https://docs.google.com/spreadsheets/d/1IySh1x6vaiKN3oshc-UBUz5yDCohQTiPNfdR_DzeB7U/edit?usp=sharing" target="_blank" rel="noopener">Google Sheets "UAT-Data" Document Link</a> 
