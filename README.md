@@ -102,7 +102,9 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
-1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com` (note browser)  
+**Estimated duration:** ~4 minutes  
+
+1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com`  
 2. **Verify:**
    - Branding (logo, fonts, colors) matches the provided screenshots.
    - Note any visual inconsistencies (this is helpful note during all test scenario IDs).
@@ -136,12 +138,14 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
+**Estimated duration:** ~3.5 minutes  
+
 1. **Scenario ID 2:** Click **About** in the main menu.  
 2. **Verify:**  
    - Modal (pop up box) shows informing the user that all information is in one place.
    - Now navigate *back* to the homepage and again *navigate to* the **About** page. The modal should *no longer appear.*
    - Two main sections are available “For Customers” and “For Store Partners.”
-     - Clicking one main section should change the table of contents to reflect the proper main section.
+     - Clicking one main section should change the table of contents to reflect the proper section.
    - Click and scroll through a few sub-sections of the table of contents to make sure there are no glitches. No need to read everything.
    - Click a sub-section with a video thumbnail (camcorder emoji). Ensure video plays on click. No need to view the whole video.
 3. **Expected:** Content is present and legible for the associated **About** page sections; video playback initiates on tap/click.
@@ -154,6 +158,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
+**Estimated duration:** ~4.75 minutes  
+
 1. **Scenario ID 3:** Navigate to **Login / Register**, enter pre-seeded credentials.  
    - Username: `customer_user2`  
    - Password: `HelloWorldForever!1`  
@@ -163,10 +169,10 @@ Screenshots are appreciated so that we can understand what you are or are not se
 3. On the main user dashboard click "My Stores and Points" towards the bottom, click "ABC Store." 
 4. **Verify:**  
    - Successful login redirects to the user dashboard. Note, clicking the t-shirt logo brings you back to the dashboard now (since you are logged into an account).
-   - There should be at least 5 points in this account.
+   - There should be at least 5 points in this account. Note "Locked-in Points" are points that have been used to generate a "Trail Perk" they are ready to be redeemed.
    - Account changes took place (step 2), verify this by clicking "Edit Profile" again.
    - Verify the details for "ABC Store" come up when clicked (step 3).
-   - **Account > Logout** correctly ends the session and shows a logout page. Click back to the homepage by clicking the T-Shirt logo.  
+   - "Account "> "Logout" correctly ends the session and shows a logout page. Click back to the homepage by clicking the T-Shirt logo.  
 5. **Expected:** Login/logout and basic dashboard and store info render properly. "Account" > "Edit Profile" flow works.  
 
 </details>
@@ -177,17 +183,19 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
+**Estimated duration:** ~5.75 minutes  
+
 1. **Scenario ID 4:** Navigate to **Login / Register**, choose **Google Sign-in** or **X-Twitter Sign-in**.
    - If you are already logged in with Google or X/Twitter in your browser, you may not need to verify your social account.
    - Reminder:
      - Your single sign-on email is *not* retained, it is in a `staging` environment where data gets deleted frequently.
      - You are also <mark>free to delete your account manually at anytime</mark> via "Account" > "Delete Account."
-     - If you don't have a Google or X/Twitter account or if you prefer not to do this Scenario ID 4, feel free to skip.
+     - If you don't have a Google or X/Twitter account or if you prefer not to do this **Scenario ID 4**, feel free to skip.
 2. Since single sign-on is used, ShopperTrail asks 2 additional questions to register a user profile.
    - How frequently you shop in physical stores
    - Your zip code
-3. Click "Account" > "Edit Profile" change your `username` or `How often do you shop in stores?` or `Zip`.
-4. Click "Account" > "Edit Profile" change your email *if* you have another email address you can access to verify.
+3. Once logged in, click "Account" > "Edit Profile" change your `username` or `How often do you shop in stores?` or `Zip`.
+4. Once logged in, click "Account" > "Edit Profile" change your email *if you have another email address you can access to verify.*
 5. **Verify:**  
     - After click of Google or X/Twitter sign-on, verify OAuth popup from that service provider works and allows you to complete authentication, if you're not already logged in (step 1).
     - After answering (step 2) questions, verify that you are signed in to ShopperTrail by clicking on the *ShopperTrail app dashboard* link. You can also click the t-shirt logo.
@@ -207,9 +215,11 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
+**Estimated duration:** ~6.25 minutes  
+
 1. **Scenario ID 5:**  This scenario tests the core ShopperTrail feedback feature for *Guests.*  
 
-    Leaving feedback (called a "Trail Drop") for a store, typically constitutes why a shopper left without buying an item (wrong style/brand). Although feedback can also be that they were happy to find/purchase an item in-stock. Providing feedback as a guest does not require a ShopperTrail account. 
+    Leaving feedback (called a "Trail Drop") for a store, typically constitutes why a shopper left without buying an item (wrong style/brand). Although feedback can also be that they were *happy* to find/purchase an item in-stock. Providing feedback as a guest does not require a ShopperTrail account. 
    - Make sure you are logged out of ShopperTrail. Now, on your mobile device, open the camera (or the ShopperTrail QR‑scanner) and scan the **Store QR Code** below. Note, in the real world this may be at the store's counter or posted inside the door. The below code is a fictional store. 
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
@@ -239,6 +249,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
 ### ID 6. Trail Drop as Registered User
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
+
+**Estimated duration:** ~3.5 minutes  
 
 1. **Scenario ID 6:** Log in with your ShopperTrail user.  
    - You may use your ShopperTrail account created via Social Sign-On (ID 4) i.e. Google. Or you may use the seeded account, which is:
@@ -270,6 +282,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
+**Estimated duration:** ~5.5 minutes  
+
 1. **Scenario ID 7:** Register/fill out a Trail Drop in one of two ways **(A) or (B)** listed below. Indicate which you chose in comments.
    - **(A)** Navigate to `https://staging.shoppertrail.com`, click **Login / Register**, click **Register**, register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
    - **(B)** First scan the QR code (again, provided below), then click the "Register" tab, complete standard registration and then finish the flow after the scan (this should be saved for your so you don't have to scan again).
@@ -291,6 +305,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
 ### ID 8. Transfer Guest Trail Perk
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
+
+**Estimated duration:** ~4.5 minutes  
 
 1. **Scenario ID 8:** On your mobile, scan one of the **Guest QR Codes** generated in Step 5 that you emailed to yourself. 
 2. **Verify:**  
@@ -316,14 +332,16 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
+**Estimated duration:** ~6 minutes  
+
 1. **Scenario ID 9:** In your logged in account, navigate to "Nav" > "Create Trail Perk"
    - Read some of the copy. What Trail Perks are, how to create and use them. 
    - Make a selection for type of Trail Perk you'd like to create. A "General Trail Perk" can be redeemed anywhere but uses 95% of your points. 
    A store specific Trail Perk, is created at 100% point value, but can only be used at that particular store. 
-   - In the first selection dropdown you should have options of "General Trail Perk" and then a list of stores at which you have points and point totals. 
+   - In the first selection dropdown you should have options of "General Trail Perk" and then a list of stores at which you have points and point totals. Note: There is only 1 store in staging / UAT. 
 2. **Verify:**  
    - You understand the copy. I tried to keep it as simple and minimal as possible while also providing additional dropdowns and detail if needed.
-   - You can create a Trail Perk
+   - You can create a Trail Perk.
    - Upon creation, the Trail Perk Created screen is displayed. See below.  
 
    ![Trail Perk Created](./Trail_Perk_Created_Screen.jpg)  
@@ -331,6 +349,7 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
    - The Trail Perk Created screen should let you know if it is a General or Store Specific Trail Perk. How much it's worth and the QR image itself. 
    - Navigate to "Nav" > "My Trail Perks" (you may need to refresh the page if "My Trail Perks" is not listed)
    - Verify that your newly created Trail Perk is listed. 
+   - Note: When you create a Trail Perk, this is now ready to be redeemed and goes to your "Locked-in Points" user dashboad total.
 3. **Expected:** Points credit succeeds once, further attempts yield an error message.
 
 </details>
@@ -345,6 +364,7 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
    - In your logged in account, go to **Nav > My Trail Perks**. 
       - You should now have a user generated trail perk (Test ID 9) 
    - Click **Details...** on any available perk.  
+   
      ![Trail Perk Details](./Trail_Perk_Details.jpg)
 
    Context: ShopperTrail users create a Trail Perk matching a store’s 
