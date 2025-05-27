@@ -100,7 +100,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ### ID 1. Homepage Load & Visual Check
 <details>
-<summary><strong>Expand / Collapse</strong></summary>
+<summary><strong>Expand / Collapse</strong></summary><br>
 
 **Estimated duration:** ~4 minutes  
 
@@ -136,7 +136,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ### ID 2. About ShopperTrail Page Content & Media
 <details>
-<summary><strong>Expand / Collapse</strong></summary>
+<summary><strong>Expand / Collapse</strong></summary><br>
 
 **Estimated duration:** ~3.5 minutes  
 
@@ -156,7 +156,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 ### ID 3. Login & Logout (Seeded Account)
 <details>
-<summary><strong>Expand / Collapse</strong></summary>
+<summary><strong>Expand / Collapse</strong></summary><br>
 
 **Estimated duration:** ~4.75 minutes  
 
