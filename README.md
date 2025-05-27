@@ -68,7 +68,9 @@ Perform the actions in the below test scenarios from the **Scenario ID List.** R
 
 ### UAT-Data Google Sheet Example
 
-Example of completing the UAT-Data Google Sheet. This just gives you an idea, there are a few more columns to complete. (GitHub only allows embedded gifs, not videos).
+Example of completing the UAT-Data Google Sheet. This just gives you an idea, there are a few more columns to complete. (GitHub only allows embedded gifs, not videos).  
+
+**Note:** Your scenario rows don’t need to be contiguous—feel free to add them anywhere, since multiple testers will be logging results simultaneously.  
 
   <!-- Figure with GIF -->
   <figure style="margin:0; text-align:center;">
