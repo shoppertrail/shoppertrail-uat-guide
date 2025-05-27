@@ -367,7 +367,7 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 
      ![Trail Perk Details](./Trail_Perk_Details.jpg)
 
-   Context: ShopperTrail users create a Trail Perk matching a store’s 
+   Context: ShopperTrail users would typically create a Trail Perk matching a store’s 
    point-based offer—for example, a 50-point perk to claim a free coffee at a deli. 
    At checkout, user would open that perk and swipe the slider *in front* of a store associate, instantly redeeming the reward.
    - Before you redeem make a mental note of the first 3 characters of the Trail Perk Token (example format: `d4202c13-b359-4193-b355-cf046beff83c`)
