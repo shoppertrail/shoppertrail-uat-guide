@@ -60,7 +60,7 @@ Perform the actions in the below test scenarios from the **Scenario ID List.** R
 
 **Tester Name**, **Scenario ID**, **Scenario Description**, **Pass/Fail**, **Main Comments**, **Device Type**, **Browser**.  
 
-**Tip:** Have this guide open in one tab, the "UAT-Data" Google Sheet open in another tab and your email provider open in a 3rd tab. Have your phone handy to scan the Store QR Codes in this document as you test.
+**Tip:** Have this guide open in one tab, the "UAT-Data" Google Sheet open in another tab and your email provider open in a 3rd tab. You may also want to have the ShopperTrail Staging site open in a tab, or you can use your phone. You will need to have your phone handy to scan the Store QR Codes in this document as you test.
 
 ### UAT-Data Google Sheet Link
 
