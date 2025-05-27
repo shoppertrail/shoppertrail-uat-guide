@@ -360,11 +360,11 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 <details>
 <summary><strong>Steps</strong> (click to expand)</summary>
 
-1. **Scenario ID 10:**  
-   - In your logged in account, go to **Nav > My Trail Perks**. 
-      - You should now have a user generated trail perk (Test ID 9) 
+1. **Scenario ID 10:**
+   - In your logged in account, go to **Nav > My Trail Perks**.
+      - You should now have a user generated trail perk (Test ID 9)
    - Click **Details...** on any available perk.  
-   
+
      ![Trail Perk Details](./Trail_Perk_Details.jpg)
 
    Context: ShopperTrail users create a Trail Perk matching a store’s 
