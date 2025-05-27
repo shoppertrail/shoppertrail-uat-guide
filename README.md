@@ -102,7 +102,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary><br>
 
-**Estimated duration:** ~4 minutes  
+**Estimated duration:** <mark>~4 minutes</mark>  
 
 1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com`  
 2. **Verify:**
@@ -138,7 +138,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary><br>
 
-**Estimated duration:** ~3.5 minutes  
+**Estimated duration:** <mark>~3.5 minutes</mark>
 
 1. **Scenario ID 2:** Click **About** in the main menu.  
 2. **Verify:**  
@@ -158,7 +158,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary><br>
 
-**Estimated duration:** ~4.75 minutes  
+**Estimated duration:** <mark>~4.75 minutes</mark>  
 
 1. **Scenario ID 3:** Navigate to **Login / Register**, enter pre-seeded credentials.  
    - Username: `customer_user2`  
