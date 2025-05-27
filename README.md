@@ -102,7 +102,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary><br>
 
-&ensp;**Estimated duration:** <mark>~4 minutes</mark>  
+&ensp;&ensp;**Estimated duration:** <mark>~4 minutes</mark>  
 
 1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com`  
 2. **Verify:**
@@ -138,7 +138,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary><br>
 
-&ensp;**Estimated duration:** <mark>~3.5 minutes</mark>
+&ensp;&ensp;**Estimated duration:** <mark>~3.5 minutes</mark>  
 
 1. **Scenario ID 2:** Click **About** in the main menu.  
 2. **Verify:**  
@@ -158,7 +158,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary><br>
 
-&ensp;**Estimated duration:** <mark>~4.75 minutes</mark>  
+&ensp;&ensp;**Estimated duration:** <mark>~4.75 minutes</mark>  
 
 1. **Scenario ID 3:** Navigate to **Login / Register**, enter pre-seeded credentials.  
    - Username: `customer_user2`  
@@ -183,7 +183,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
-**Estimated duration:** ~5.75 minutes  
+&ensp;&ensp;**Estimated duration:** <mark>~5.75 minutes</mark>  
 
 1. **Scenario ID 4:** Navigate to **Login / Register**, choose **Google Sign-in** or **X-Twitter Sign-in**.
    - If you are already logged in with Google or X/Twitter in your browser, you may not need to verify your social account.
@@ -215,7 +215,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
-**Estimated duration:** ~6.25 minutes  
+&ensp;&ensp;**Estimated duration:** <mark>~6.25 minutes</mark>  
 
 1. **Scenario ID 5:**  This scenario tests the core ShopperTrail feedback feature for *Guests.*  
 
@@ -250,7 +250,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
-**Estimated duration:** ~3.5 minutes  
+&ensp;&ensp;**Estimated duration:** <mark>~3.5 minutes</mark>  
 
 1. **Scenario ID 6:** Log in with your ShopperTrail user.  
    - You may use your ShopperTrail account created via Social Sign-On (ID 4) i.e. Google. Or you may use the seeded account, which is:
@@ -282,7 +282,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
-**Estimated duration:** ~5.5 minutes  
+&ensp;&ensp;**Estimated duration:** <mark>~5.5 minutes</mark>  
 
 1. **Scenario ID 7:** Register/fill out a Trail Drop in one of two ways **(A) or (B)** listed below. Indicate which you chose in comments.
    - **(A)** Navigate to `https://staging.shoppertrail.com`, click **Login / Register**, click **Register**, register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
@@ -306,7 +306,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
-**Estimated duration:** ~4.5 minutes  
+&ensp;&ensp;**Estimated duration:** <mark>~4.5 minutes</mark>  
 
 1. **Scenario ID 8:** On your mobile, scan one of the **Guest QR Codes** generated in Step 5 that you emailed to yourself. 
 2. **Verify:**  
@@ -332,7 +332,7 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 <details>
 <summary><strong>Expand / Collapse</strong></summary>
 
-**Estimated duration:** ~6 minutes  
+&ensp;&ensp;**Estimated duration:** <mark>~6 minutes</mark>  
 
 1. **Scenario ID 9:** In your logged in account, navigate to "Nav" > "Create Trail Perk"
    - Read some of the copy. What Trail Perks are, how to create and use them. 
@@ -360,7 +360,7 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 <details>
 <summary><strong>Steps</strong> (click to expand)</summary>
 
-**Estimated duration:** ~5 minutes  
+&ensp;&ensp;**Estimated duration:** <mark>~5 minutes</mark>  
 
 1. **Scenario ID 10:**
    - In your logged in account, go to **Nav > My Trail Perks**.
