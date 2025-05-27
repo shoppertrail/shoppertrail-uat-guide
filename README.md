@@ -360,6 +360,8 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 <details>
 <summary><strong>Steps</strong> (click to expand)</summary>
 
+**Estimated duration:** ~5 minutes  
+
 1. **Scenario ID 10:**
    - In your logged in account, go to **Nav > My Trail Perks**.
       - You should now have a user generated trail perk (Test ID 9)
@@ -369,7 +371,7 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 
    Context: ShopperTrail users create a Trail Perk matching a store’s 
    point-based offer—for example, a 50-point perk to claim a free coffee at a deli. 
-   At checkout, they open that perk and swipe the slider in front of a store associate, instantly redeeming the reward.
+   At checkout, user would open that perk and swipe the slider *in front* of a store associate, instantly redeeming the reward.
    - Before you redeem make a mental note of the first 3 characters of the Trail Perk Token (example format: `d4202c13-b359-4193-b355-cf046beff83c`)
 
 2. **Redeem**     
@@ -378,7 +380,7 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 
 3. **Verify**  
    - The detail view updates to “Redeemed.”  
-   - That perk with the first 3 characters you noted, is gone. Check  **Nav > My Trail Perks**.  
+   - That perk with the first 3 characters you noted, is gone. Check  **Nav > My Trail Perks**. If you only created one Trail Perk then there should be nothing under **My Trail Perks**.  
      ![Trail Perk Redeemed](./Trail_Perk_Details_Redeemed.jpg)
 
 **Expected Result:**  
