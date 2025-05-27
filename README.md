@@ -1,12 +1,8 @@
 # ShopperTrail UAT
 
-Thanks for helping us test ShopperTrail!
+Thank you for helping us test ShopperTrail! Core test scenarios (IDs 1–10), including reading these instructions and logging your results in the “UAT-Data” Google Sheet, should take about **50 minutes**. If you move quickly, you may finish sooner—feel free to deviate and explore the app beyond these steps.
 
-Below is a prioritized instructions list of end‑to‑end test scenarios for UAT which runs in a staging environment (non-permanent data).  Each tester should spend ~30 minutes working through core flows (Steps 1–4), then—time permitting—move on to guest accounts and QR‑code manipulation (Steps 5–10). Testing and documentation should take about an hour. 
-
-Email `shoppertrail@gmail.com` or `service@shoppertrail.com` if you have questions regarding these instructions.  
-
-**Note:** While the steps below cover our core flows, please feel free to deviate and explore the app to assess its intuitiveness.
+If you have any questions, email shoppertrail@gmail.com or service@shoppertrail.com.
 
 ---
 
