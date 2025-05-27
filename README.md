@@ -358,7 +358,7 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 <details>
 <summary><strong>Steps</strong> (click to expand)</summary>
 
-&ensp;&ensp;**Estimated duration:** <mark>~5 minutes</mark>  
+&ensp;&ensp;**Estimated duration:** <mark>~5 minutes</mark>
 
 1. **Scenario ID 10:**
    - In your logged in account, go to **Nav > My Trail Perks**.
