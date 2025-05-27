@@ -260,7 +260,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
    ![Logged In User TD Complete Screen](./Logged_In_User_Complete.jpg)  
   
-4. **Expected:** Form loads, submission and points are tied to your user profile.
+4. **Expected:** Form loads, submission and points are tied to your logged in user profile.
 
 </details>
 
@@ -271,7 +271,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 <summary><strong>Expand / Collapse</strong></summary>
 
 1. **Scenario ID 7:** Register/fill out a Trail Drop in one of two ways **(A) or (B)** listed below. Indicate which you chose in comments.
-   - **(A)** Register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
+   - **(A)** Navigate to `https://staging.shoppertrail.com`, click **Login / Register**, click **Register**, register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
    - **(B)** First scan the QR code (again, provided below), then click the "Register" tab, complete standard registration and then finish the flow after the scan (this should be saved for your so you don't have to scan again).
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
