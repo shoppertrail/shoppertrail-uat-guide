@@ -104,7 +104,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 &ensp;&ensp;**Estimated duration:** <mark>~4 minutes</mark>  
 
-1. **Scenario ID 1:** Navigate to `https://staging.shoppertrail.com`  
+1. **Scenario ID 1:** Navigate to [ShopperTrail Staging](https://staging.shoppertrail.com "ShopperTrail Staging")
 2. **Verify:**
    - Branding (logo, fonts, colors) matches the provided screenshots.
    - Note any visual inconsistencies (this is helpful note during all test scenario IDs).
