@@ -239,7 +239,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - Detailed Guest Guide is available on this screen too as a refresher of the process. 
    - No account is required to gain points.  
    - Check email, ShopperTrail Trail Perk should have arrived in your inbox (spam/updates/promotions)
-3. **Repeat:** Scan again, choose another scenario, if you did not make a purchase last time maybe you select that you did make a purchase this time. Rate satisfaction, etc. Submit.  
+3. **Repeat:** Scan again, choose another scenario, if you did not make a purchase last time maybe you select that you did make a purchase this time. Rate satisfaction, etc. Submit.
+4. **Note:** If you scan more than 7 times you will reach a cookie scan limit. Clear cookies if you wish to scan/test more as a guest. 
 4. **Expected:** Both submissions succeed, Trail Perk Earned screen is displayed, Trail Perk is understandable and can be emailed.
 
 </details>
@@ -286,7 +287,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 1. **Scenario ID 7:** Register/fill out a Trail Drop in one of two ways **(A) or (B)** listed below. Indicate which you chose in comments.
    - **(A)** Navigate to `https://staging.shoppertrail.com`, click **Login / Register**, click **Register**, register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
-   - **(B)** First scan the QR code (again, provided below), then click the "Register" tab, complete standard registration and then finish the flow after the scan (this should be saved for your so you don't have to scan again).
+   - **(B)** (B) Scan the store’s QR code first (provided below), then click the Register tab and complete the standard registration flow. 
+   *Note: due to current limitations, the initial scan isn’t preserved through registration—after you finish signing up, you’ll need to scan the QR code again to continue. (If you already have an account and simply log in, the initial scan will persist.)*
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
    </p>
