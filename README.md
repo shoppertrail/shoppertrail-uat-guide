@@ -1,8 +1,8 @@
 # ShopperTrail UAT
 
-Thank you for helping us test ShopperTrail! Core test scenarios (IDs 1–10), including reading these instructions and logging your results in the “UAT-Data” Google Sheet, should take about **50 minutes**. If you move quickly, you may finish sooner—feel free to deviate and explore the app beyond these steps.
+Thank you for helping us test ShopperTrail! Core test scenarios (IDs 1–10), including reading these instructions and logging your results in the “UAT-Data” Google Sheet, should take about **50 minutes**. If you move quickly, you may finish sooner—feel free to deviate and explore the app beyond these steps. 
 
-If you have any questions, email shoppertrail@gmail.com or service@shoppertrail.com.
+If you have any questions, email shoppertrail@gmail.com or service@shoppertrail.com. If you encounter any blockers text Patrick Skelley at (571) 276 - 9543
 
 ---
 
