@@ -287,7 +287,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 1. **Scenario ID 7:** Register/fill out a Trail Drop in one of two ways **(A) or (B)** listed below. Indicate which you chose in comments.
    - **(A)** Navigate to `https://staging.shoppertrail.com`, click **Login / Register**, click **Register**, register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
-   - **(B)** Scan the store’s QR code first (provided below), then click the Register tab and complete the standard registration flow. 
+   - **(B)** Scan the store’s QR code first (provided below), then click the Register tab and complete the standard registration flow, or single Sign‑On (Google & Twitter) registration.
    *Note: due to current limitations, the initial scan isn’t preserved through registration—after you finish signing up, you’ll need to scan the QR code again to continue. (If you already have an account and simply log in, the initial scan will persist.)*
    <p align="center">
       <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
