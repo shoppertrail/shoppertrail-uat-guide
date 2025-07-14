@@ -1,5 +1,7 @@
 # ShopperTrail UAT
 
+*NOTE:* Testing URL is now https
+
 Thank you for helping us test ShopperTrail! Core test scenarios (IDs 1–10), including reading these instructions and logging your results in the “UAT-Data” Google Sheet, should take about **50 minutes**. If you move quickly, you may finish sooner—feel free to deviate and explore the app beyond these steps. 
 
 If you have any questions or encounter any blockers, email shoppertrail@gmail.com or patrick@shoppertrail.com. 
@@ -104,7 +106,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 &ensp;&ensp;**Estimated duration:** <mark>~4 minutes</mark>  
 
-1. **Scenario ID 1:** Navigate to [ShopperTrail Staging](https://staging.shoppertrail.com "ShopperTrail Staging")
+1. **Scenario ID 1:** Navigate to [ShopperTrail Prod Test](https://app.shoppertrail.com)
 2. **Verify:**
    - Branding (logo, fonts, colors) matches the provided screenshots.
    - Note any visual inconsistencies (this is helpful note during all test scenario IDs).
