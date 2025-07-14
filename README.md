@@ -1,6 +1,6 @@
 # ShopperTrail UAT
 
-*NOTE:* Testing URL is now https
+*NOTE:* Testing URL is now production. App is not yet launched, please don't share. 
 
 Thank you for helping us test ShopperTrail! Core test scenarios (IDs 1–10), including reading these instructions and logging your results in the “UAT-Data” Google Sheet, should take about **50 minutes**. If you move quickly, you may finish sooner—feel free to deviate and explore the app beyond these steps. 
 
@@ -50,9 +50,9 @@ ShopperTrail (brief) informational landing page: <a href="https://shoppertrail.c
 - Test user credentials (seeded in staging) i.e.:  
   - Username: `customer_user2`  
   - Password: `HelloWorldForever!1`  
-- Optional: Google or Twitter account for social‑login. 
-    - **NOTE** Staging data is deleted *frequently!* <mark>Your email / social sign-in credentials will **NEVER** be shared.</mark>
 - Access to your email on your mobile or desktop, to confirm registration / guest‑QR emails.
+- Optional: Google or Twitter account for social‑login. 
+    - **NOTE** Test data is deleted *frequently!* <mark>Your email / social sign-in credentials will **NEVER** be shared.</mark>
 
 ---
 
@@ -62,7 +62,7 @@ Perform the actions in the below test scenarios from the **Scenario ID List.** R
 
 **Tester Name**, **Scenario ID**, **Scenario Description**, **Pass/Fail**, **Main Comments**, **Device Type**, **Browser**.  
 
-**Tip:** Have this guide open in one tab, the "UAT-Data" Google Sheet open in another tab and your email provider open in a 3rd tab. You may also want to have the ShopperTrail Staging site open in a tab, or you can use your phone. You will need to have your phone handy to scan the Store QR Codes in this document as you test.
+**Tip:** Have this guide open in one tab, the "UAT-Data" Google Sheet open in another tab and your email provider open in a 3rd tab. You may also want to have the ShopperTrail Prod Test site open in a tab, or you can use your phone. You *will* need to have your phone handy to scan the Store QR Codes in this document as you test.
 
 ### UAT-Data Google Sheet Link
 
@@ -120,14 +120,18 @@ Screenshots are appreciated so that we can understand what you are or are not se
      3. About
    - Should include a link for retailer sign-up info (for "Store" users).
    - Should include ShopperTrail Overview Video.  
+   - *ADDED* since staging testing: "How ShopperTrail Works" Graphic. Explains ShopperTrail at a single glance.  
 
    ![Homepage – scroll down](./Homepage_2.jpg)
 
-   - Main video loads and plays (click cover gif or link), no need to watch entire video. Loading timer emoji displays with font (if video loads fast you might not see this).
+   - Main video loads and plays (click vid cover gif or link), no need to watch entire video. Loading timer emoji displays with font (if video loads fast you might not see this).
    - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in, a T-Shirt logo click goes to user's dashboard.
+     - *ADDED* since staging testing: One time pop-up near the T-Shirt home button "Tap T-Shirt for home"
    - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages. Note, Login/Register replaces the page graphics with all auth buttons.
    - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner.
      - Click to show quick scanner and grant browser camera permissions. Ensure ShopperTrail scanner pops up. Hide scanner and exit for now.
+     *ADDED* since staging testing: If you are on desktop, confirmation alert after clicking 'Scan a ShopperTrail QR' that wars user camera permissions will be requested
+     *ADDED* since staging testing: Red close scanner button, to make it clear how to stop scanning if the user wants to do so. 
 3. **Expected:** Page renders cleanly in less than 2 seconds, video playback starts without error, links navigate correctly. ShopperTrail scanner appears.
    - *Note* ShopperTrail scanner will only scan ShopperTrail QR Codes, this is so people can't create fakes.
    - Try to scan a random QR code on the internet if you'd like, this should not work. 
@@ -165,6 +169,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 1. **Scenario ID 3:** Navigate to **Login / Register**, enter pre-seeded credentials.  
    - Username: `customer_user2`  
    - Password: `HelloWorldForever!1`  
+   - *ADDED* since staging testing: 'show password' button (emoji) so that users can password text as they type.
 2. Using the top menu Click "Account" > "Edit Profile" and change values of `How often do you shop in stores?` or `Zip` to a new selection or value.
    - *Please DO NOT* change username or email.
    - *Please DO NOT* delete account or change password.
@@ -175,6 +180,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - Account changes took place (step 2), verify this by clicking "Edit Profile" again.
    - Verify the details for "ABC Store" come up when clicked (step 3).
    - "Account "> "Logout" correctly ends the session and shows a logout page. Click back to the homepage by clicking the T-Shirt logo.  
+   - *ADDED* since staging testing: People wanted a 'Logout' button on the menu bar instead of under "Account" > "Logout"
 5. **Expected:** Login/logout and basic dashboard and store info render properly. "Account" > "Edit Profile" flow works.  
 
 </details>
@@ -224,7 +230,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
     Leaving feedback (called a "Trail Drop") for a store, typically constitutes why a shopper left without buying an item (wrong style/brand). Although feedback can also be that they were *happy* to find/purchase an item in-stock. Providing feedback as a guest does not require a ShopperTrail account. 
    - Make sure you are logged out of ShopperTrail. Now, on your mobile device, open the camera (or the ShopperTrail QR‑scanner) and scan the **Store QR Code** below. Note, in the real world this may be at the store's counter or posted inside the door. The below code is a fictional store. 
    <p align="center">
-      <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
+      <img src="./prod_test_store_qr_code_image.png" alt="ABC QR Code">
    </p>
    <strong>Click “Trail Drop Form”</strong> to begin filling out the form. Which should look like the below.
    
