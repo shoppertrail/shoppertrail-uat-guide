@@ -122,7 +122,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
      3. About
    - Should include a link for retailer sign-up info (for "Store" users).
    - Should include ShopperTrail Overview Video.  
-   - *ADDED* since staging testing: "How ShopperTrail Works" Graphic. Explains ShopperTrail at a single glance.  
+   - *ADDED* since staging testing: "How ShopperTrail Works" Graphic. Explains ShopperTrail at a glance.  
 
    <p align="center">
       <img src="./Homepage_2.jpg" alt="Home Page 2">
@@ -134,8 +134,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages. Note, Login/Register replaces the page graphics with all auth buttons.
    - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner.
      - Click to show quick scanner and grant browser camera permissions. Ensure ShopperTrail scanner pops up. Hide scanner and exit for now.
-     *ADDED* since staging testing: If you are on desktop, confirmation alert after clicking 'Scan a ShopperTrail QR' that wars user camera permissions will be requested
-     *ADDED* since staging testing: Red close scanner button, to make it clear how to stop scanning if the user wants to do so. 
+     - *ADDED* since staging testing: If you are on desktop, confirmation alert after clicking 'Scan a ShopperTrail QR' that wars user camera permissions will be requested
+     - *ADDED* since staging testing: Red close scanner button, to make it clear how to stop scanning if the user wants to do so. 
 3. **Expected:** Page renders cleanly in less than 2 seconds, video playback starts without error, links navigate correctly. ShopperTrail scanner appears.
    - *Note* ShopperTrail scanner will only scan ShopperTrail QR Codes, this is so people can't create fakes.
    - Try to scan a random QR code on the internet if you'd like, this should not work. 
