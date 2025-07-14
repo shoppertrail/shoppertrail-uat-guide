@@ -315,7 +315,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    Note: You may need to login and delete other accounts you have created so that you do not get an "email already in use" notification. Also if you choose <strong>(B)</strong> you should be able to register via Single Sign‑On (Google & Twitter) if you wish!
 2. **Verify:**  
    - Account activation email (if using conventional registration) arrives. Check spam/updates folders. 
-   - *NOTE:* Activation email URL should go to <mark>links.shoppertrail.com/etc/etc</mark>
+   - *NOTE:* Inspect activation email URL hostname should be <mark>links.shoppertrail.com/etc/etc</mark> (hover over link or right click - paste to check it out)
    - After email activation (click link in email), you can log in.  
    - Trail Drop submission via registered/logged in account gives 30% more points than *Guest* (i.e. 10 member vs 7 guest)
    - Evaluate screens that explain steps (register after scan, activate, login, continue with scan), are they intuitive? 
