@@ -235,7 +235,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    <strong>Click “Click to get started”</strong> to begin filling out the form. <br><br><i>CHANGED</i> since staging testing: “Click to get started” was labeled "Trail Drop Form." <br><i>CHANGED</i> since staging testing: Increased form font.
    
    <p align="center">
-      <img src="./Trail_Drop_Form.png" alt="ABC QR Code">
+      <img src="./Trail_Drop_Form.jpg" alt="Trail Drop Form">
    </p>
    
    Simply invent a scenario where you did not (or did) find what you were looking for, and why you did not make a purchase (or, if you did purchase, how satisfied were you). After the form is submitted, you should arrive at the Trail Perk screen (below) this tells you of your earned points. 
