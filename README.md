@@ -239,8 +239,10 @@ Screenshots are appreciated so that we can understand what you are or are not se
    </p>
    
    Simply invent a scenario where you did not (or did) find what you were looking for, and why you did not make a purchase (or, if you did purchase, how satisfied were you). After the form is submitted, you should arrive at the Trail Perk screen (below) this tells you of your earned points. 
-   
-   ![Trail Perk Earned](./Trail_Perk_Earned.jpg)  
+
+   <p align="center">
+      <img src="./Trail_Perk_Earned.jpg" alt="Trail Drop Form">
+   </p>
    
    Add an email address to which to send your earned points - Trail Perk QR code.
 2. **Verify:**  
@@ -273,7 +275,9 @@ Screenshots are appreciated so that we can understand what you are or are not se
    </p>
    <strong>Screen should appear</strong> as below after scan, this is what a logged in user sees after scanning a store's QR Code: 
 
-   ![Logged In User Scan Screen](./Logged_In_User_Scan.jpg)  
+   <p align="center">
+      <img src="./Logged_In_User_Scan.jpg" alt="Logged In User Scan">
+   </p>
 
 3. **Verify:**  
    - Submission is recorded to your account (check **Dashboard**).
@@ -281,7 +285,9 @@ Screenshots are appreciated so that we can understand what you are or are not se
    
    <strong>Screen should appear</strong> as below after form submission:  
 
-   ![Logged In User TD Complete Screen](./Logged_In_User_Complete.jpg)  
+   <p align="center">
+      <img src="./Logged_In_User_Complete.jpg" alt="Logged In User Complete">
+   </p>
   
 4. **Expected:** Form loads, submission and points are tied to your logged in user profile.
 
@@ -300,7 +306,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - **(B)** Scan the store’s QR code first (provided below), then click the Register tab and complete the standard registration flow, or single Sign‑On (Google & Twitter) registration.
    *Note: due to current limitations, the initial scan isn’t preserved through registration—after you finish signing up, you’ll need to scan the QR code again to continue. (If you already have an account and simply log in, the initial scan will persist.)*
    <p align="center">
-      <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
+      <img src="./prod_test_store_qr_code_image.png" alt="ABC QR Code">
    </p>
    Note: You may need to login and delete other accounts you have created so that you do not get an "email already in use" error. Also if you choose <strong>(B)</strong> you should be able to register via Single Sign‑On (Google & Twitter) if you wish.
 2. **Verify:**  
@@ -355,8 +361,9 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
    - You understand the copy. I tried to keep it as simple and minimal as possible while also providing additional dropdowns and detail if needed.
    - You can create a Trail Perk.
    - Upon creation, the Trail Perk Created screen is displayed. See below.  
-
-   ![Trail Perk Created](./Trail_Perk_Created_Screen.jpg)  
+   <p align="center">
+      <img src="./Trail_Perk_Created_Screen.jpg" alt="Trail Perk Created Screen">
+   </p>
 
    - The Trail Perk Created screen should let you know if it is a General or Store Specific Trail Perk. How much it's worth and the QR image itself. 
    - Navigate to "Nav" > "My Trail Perks" (you may need to refresh the page if "My Trail Perks" is not listed)
@@ -379,7 +386,9 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
       - You should now have a user generated trail perk (Test ID 9)
    - Click **Details...** on any available perk.
 
-     ![Trail Perk Details](./Trail_Perk_Details.jpg)
+   <p align="center">
+      <img src="./Trail_Perk_Details.jpg" alt="Trail Perk Details">
+   </p>
 
    Context: ShopperTrail users would typically create a Trail Perk matching a store’s 
    point-based offer. For example, a 50-point perk to claim a free coffee at a deli. 
@@ -393,7 +402,9 @@ Note: As an alternative to scanning one of your **Guest QR Codes**, you can try 
 3. **Verify**  
    - The detail view updates to “Redeemed.”  
    - That perk with the first 3 characters you noted, is gone. Check  **Nav > My Trail Perks**. If you only created one Trail Perk then there should be nothing under **My Trail Perks**.  
-     ![Trail Perk Redeemed](./Trail_Perk_Details_Redeemed.jpg)
+   <p align="center">
+      <img src="./Trail_Perk_Details_Redeemed.jpg" alt="Trail Perk Details Redeemed">
+   </p>
 
 **Expected Result:**  
 The selected Trail Perk is redeemed and removed from the “My Trail Perks” list.
