@@ -232,7 +232,8 @@ Screenshots are appreciated so that we can understand what you are or are not se
    <p align="center">
       <img src="./prod_test_store_qr_code_image.png" alt="ABC QR Code">
    </p>
-   <strong>Click “Trail Drop Form”</strong> to begin filling out the form. Which should look like the below.
+   <strong>Click “Click to get started”</strong> to begin filling out the form. <br> *CHANGED* since staging testing: “Click to get started” was labeled "Trail Drop Form" <br> Form should look like the below. 
+   
    
    ![Trail Drop Form](./Trail_Drop_Form.jpg)  
    
