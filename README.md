@@ -112,7 +112,9 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - Note any visual inconsistencies (this is helpful note during all test scenario IDs).
    - Homepage TOP - Main page - logo should fade in/out, in front of a background image.  
 
-   ![Homepage – top](./Homepage_1.jpg)  
+   <p align="center">
+      <img src="./Homepage_1.jpg" alt="Home Page 1">
+   </p>
    
    - Homepage scrolled down - Main page as user scrolls - Should have buttons:
      1. Login / Register
@@ -122,7 +124,9 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - Should include ShopperTrail Overview Video.  
    - *ADDED* since staging testing: "How ShopperTrail Works" Graphic. Explains ShopperTrail at a single glance.  
 
-   ![Homepage – scroll down](./Homepage_2.jpg)
+   <p align="center">
+      <img src="./Homepage_2.jpg" alt="Home Page 2">
+   </p>
 
    - Main video loads and plays (click vid cover gif or link), no need to watch entire video. Loading timer emoji displays with font (if video loads fast you might not see this).
    - Clicking the ShopperTrail small T-Shirt logo will always return to the main homepage, or if the user's logged in, a T-Shirt logo click goes to user's dashboard.
