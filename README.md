@@ -134,7 +134,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - All primary navigation links (Login/Register, Scan a ShopperTrail QR, About) are clickable and lead to the correct pages. Note, Login/Register replaces the page graphics with all auth buttons.
    - On your phone, click the *Scan a ShopperTrail QR* there should be options to show "quick" or "advanced" scanner.
      - Click to show quick scanner and grant browser camera permissions. Ensure ShopperTrail scanner pops up. Hide scanner and exit for now.
-     - *ADDED* since staging testing: If you are on desktop, confirmation alert after clicking 'Scan a ShopperTrail QR' that wars user camera permissions will be requested
+     - *ADDED* since staging testing: If you are on desktop, added a confirmation alert after clicking 'Scan a ShopperTrail QR' that warns user that camera permissions will be requested
      - *ADDED* since staging testing: Red close scanner button, to make it clear how to stop scanning if the user wants to do so. 
 3. **Expected:** Page renders cleanly in less than 2 seconds, video playback starts without error, links navigate correctly. ShopperTrail scanner appears.
    - *Note* ShopperTrail scanner will only scan ShopperTrail QR Codes, this is so people can't create fakes.
@@ -287,7 +287,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    - Submission is recorded to your account (check **Dashboard**).
    - You should get more points for a logged in submission i.e. if Guest points were 7, then as a logged-in user you should get 10 points.  
    
-   <strong>Screen should appear</strong> as below after form submission:  
+   <strong>Screen should appear</strong> as below after form submission (Button says "Click to get started" though, not "Trail Drop Form"):  
 
    <p align="center">
       <img src="./Logged_In_User_Complete.jpg" alt="Logged In User Complete">
@@ -306,15 +306,16 @@ Screenshots are appreciated so that we can understand what you are or are not se
 &ensp;&ensp;**Estimated duration:** <mark>~5.5 minutes</mark>  
 
 1. **Scenario ID 7:** Register/fill out a Trail Drop in one of two ways **(A) or (B)** listed below. Indicate which you chose in comments.
-   - **(A)** Navigate to `https://staging.shoppertrail.com`, click **Login / Register**, click **Register**, register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
+   - **(A)** Navigate to `https://app.shoppertrail.com`, click **Login / Register**, click **Register**, register/activate an account, login *then* scan the store's QR code to submit the Trail Drop
    - **(B)** Scan the store’s QR code first (provided below), then click the Register tab and complete the standard registration flow, or single Sign‑On (Google & Twitter) registration.
    *Note: due to current limitations, the initial scan isn’t preserved through registration—after you finish signing up, you’ll need to scan the QR code again to continue. (If you already have an account and simply log in, the initial scan will persist.)*
    <p align="center">
       <img src="./prod_test_store_qr_code_image.png" alt="ABC QR Code">
    </p>
-   Note: You may need to login and delete other accounts you have created so that you do not get an "email already in use" error. Also if you choose <strong>(B)</strong> you should be able to register via Single Sign‑On (Google & Twitter) if you wish.
+   Note: You may need to login and delete other accounts you have created so that you do not get an "email already in use" notification. Also if you choose <strong>(B)</strong> you should be able to register via Single Sign‑On (Google & Twitter) if you wish!
 2. **Verify:**  
    - Account activation email (if using conventional registration) arrives. Check spam/updates folders. 
+   - *NOTE:* Activation email URL should go to <mark>links.shoppertrail.com/etc/etc</mark>
    - After email activation (click link in email), you can log in.  
    - Trail Drop submission via registered/logged in account gives 30% more points than *Guest* (i.e. 10 member vs 7 guest)
    - Evaluate screens that explain steps (register after scan, activate, login, continue with scan), are they intuitive? 
