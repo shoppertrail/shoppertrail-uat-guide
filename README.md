@@ -268,7 +268,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
       - Password: `HelloWorldForever!1` 
 2. **Step:** After log-in, click "QR Code Scanners", scan the **Store QR Code** (provided again below) and submit a Trail Drop (purchase or no‑purchase).  
    <p align="center">
-      <img src="./d4202c13-b359-4193-b355-cf046beff83c.png" alt="ABC QR Code">
+      <img src="./prod_test_store_qr_code_image.png" alt="ABC QR Code">
    </p>
    <strong>Screen should appear</strong> as below after scan, this is what a logged in user sees after scanning a store's QR Code: 
 
@@ -276,7 +276,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 
 3. **Verify:**  
    - Submission is recorded to your account (check **Dashboard**).
-   - You should get more points for a logged in submission i.e. if Guest points were 3.5, then as a logged-in user you should get 5 points.  
+   - You should get more points for a logged in submission i.e. if Guest points were 7, then as a logged-in user you should get 10 points.  
    
    <strong>Screen should appear</strong> as below after form submission:  
 
@@ -305,7 +305,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
 2. **Verify:**  
    - Account activation email (if using conventional registration) arrives. Check spam/updates folders. 
    - After email activation (click link in email), you can log in.  
-   - Trail Drop submission via registered/logged in account gives 30% more points than *Guest* (i.e. 10 member vs 7 guest, or 5 member vs 3.5 guest)
+   - Trail Drop submission via registered/logged in account gives 30% more points than *Guest* (i.e. 10 member vs 7 guest)
    - Evaluate screens that explain steps (register after scan, activate, login, continue with scan), are they intuitive? 
 3. **Expected:** Flow “Sign Up → Activate → Submit” completes end‑to‑end.
 
