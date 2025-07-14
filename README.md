@@ -232,7 +232,7 @@ Screenshots are appreciated so that we can understand what you are or are not se
    <p align="center">
       <img src="./prod_test_store_qr_code_image.png" alt="ABC QR Code">
    </p>
-   <strong>Click “Click to get started”</strong> to begin filling out the form. <br><br><i>CHANGED</i> since staging testing: “Click to get started” was labeled "Trail Drop Form." <br> See below. 
+   <strong>Click “Click to get started”</strong> to begin filling out the form. <br><br><i>CHANGED</i> since staging testing: “Click to get started” was labeled "Trail Drop Form." <br><i>CHANGED</i> since staging testing: Increased form font. <br> See below. 
    
    
    ![Trail Drop Form](./Trail_Drop_Form.jpg)  
